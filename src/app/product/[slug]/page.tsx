@@ -52,13 +52,25 @@ export default async function ProductDetailPage({ params }: PageProps) {
       "@type": "Brand",
       "name": brandName
     },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": product.rating,
+      "reviewCount": product.reviewCount,
+      "bestRating": "5",
+      "worstRating": "1"
+    },
     "offers": {
       "@type": "Offer",
       "priceCurrency": "INR",
       "price": product.salePrice,
+      "priceValidUntil": new Date(new Date().getFullYear() + 1, 11, 31).toISOString().split("T")[0],
       "itemCondition": "https://schema.org/NewCondition",
       "availability": product.stock > 0 ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
-      "url": `https://evpartsindia.vercel.app/product/${product.slug}`
+      "url": `https://evstore.vercel.app/product/${product.slug}`,
+      "seller": {
+        "@type": "Organization",
+        "name": "EVParts India"
+      }
     }
   };
 

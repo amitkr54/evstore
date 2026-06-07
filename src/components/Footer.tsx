@@ -63,6 +63,11 @@ export default function Footer() {
                 { label: "Screen Protection", value: "protection" },
                 { label: "Crash Guards", value: "guards" },
                 { label: "Comfort & Mats", value: "comfort" },
+                { label: "Charger Accessories", value: "charger" },
+                { label: "Utility & Holders", value: "utility" },
+                { label: "Scooter Covers", value: "covers" },
+                { label: "Combo Kits", value: "combo" },
+                { label: "Spare Parts", value: "spares" },
               ].map((cat) => (
                 <li key={cat.value}>
                   <Link

@@ -22,11 +22,7 @@ const stats = [
 ];
 
 export default function HomePage() {
-  const [activeBrand, setActiveBrand] = useState<string | null>(null);
-  const bestsellers = getBestsellers();
-  const filteredProducts = activeBrand
-    ? products.filter((p) => p.brand === activeBrand)
-    : bestsellers;
+  const bestsellers = getBestsellers().slice(0, 8); // Top 8 bestsellers
 
   return (
     <div className="min-h-screen">
@@ -77,14 +73,13 @@ export default function HomePage() {
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
           {brands.map((brand) => {
             const count = products.filter((p) => p.brand === brand.id).length;
-            const isActive = activeBrand === brand.id;
             return (
-              <button
+              <Link
                 key={brand.id}
                 id={`brand-filter-${brand.id}`}
-                onClick={() => setActiveBrand(isActive ? null : brand.id)}
+                href={`/catalog?brand=${brand.id}`}
                 className="card-hover rounded-2xl p-5 text-left group transition-all duration-200"
-                style={{ background: isActive ? `${brand.color}18` : "var(--bg-card)", border: isActive ? `1px solid ${brand.color}60` : "1px solid var(--border)", boxShadow: isActive ? `0 0 20px ${brand.color}20` : "none" }}
+                style={{ background: "var(--bg-card)", border: "1px solid var(--border)" }}
               >
                 <div className="w-12 h-12 rounded-xl flex items-center justify-center mb-4" style={{ background: `${brand.color}15`, border: `1px solid ${brand.color}30` }}>
                   <BrandLogo logo={brand.logo} className="w-7 h-7" color={brand.color} />
@@ -95,7 +90,7 @@ export default function HomePage() {
                   <span className="text-xs font-semibold" style={{ color: brand.color }}>{count} Products</span>
                   <ChevronRight size={14} className="transition-transform group-hover:translate-x-1" style={{ color: brand.color }} />
                 </div>
-              </button>
+              </Link>
             );
           })}
         </div>
@@ -106,16 +101,16 @@ export default function HomePage() {
         <div className="flex items-center justify-between mb-8">
           <div>
             <h2 className="section-heading text-2xl sm:text-3xl text-white">
-              {activeBrand ? `${brands.find((b) => b.id === activeBrand)?.displayName} Products` : "🔥 Bestselling Products"}
+              🔥 Bestselling Products
             </h2>
-            <p className="text-gray-500 text-sm mt-1">{filteredProducts.length} products</p>
+            <p className="text-gray-500 text-sm mt-1">{bestsellers.length} products</p>
           </div>
-          <Link href={activeBrand ? `/catalog?brand=${activeBrand}` : "/catalog"} className="hidden sm:flex items-center gap-1 text-sm text-green-400 hover:text-green-300 transition-colors font-semibold">
+          <Link href="/catalog" className="hidden sm:flex items-center gap-1 text-sm text-green-400 hover:text-green-300 transition-colors font-semibold">
             View All <ArrowRight size={16} />
           </Link>
         </div>
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
-          {filteredProducts.map((product) => (
+          {bestsellers.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}
         </div>
@@ -150,6 +145,11 @@ export default function HomePage() {
             { label: "Screen Guards", value: "protection", icon: "🛡️", color: "#4f9eff", desc: "9H tempered & nano glass" },
             { label: "Crash Guards", value: "guards", icon: "🦺", color: "#a855f7", desc: "Full-body metal protection" },
             { label: "Comfort Accessories", value: "comfort", icon: "💺", color: "#00e676", desc: "Mats, footrests & covers" },
+            { label: "Charger Accessories", value: "charger", icon: "⚡", color: "#facc15", desc: "Wall mounts & dust caps" },
+            { label: "Utility & Holders", value: "utility", icon: "🔧", color: "#64748b", desc: "Mobile holders & plates" },
+            { label: "Scooter Covers", value: "covers", icon: "🏍️", color: "#ec4899", desc: "Waterproof UV covers" },
+            { label: "Combo Kits", value: "combo", icon: "📦", color: "#14b8a6", desc: "All-in-one protection" },
+            { label: "Spare Parts", value: "spares", icon: "⚙️", color: "#f43f5e", desc: "Belts & shock absorbers" },
           ].map((cat) => (
             <Link key={cat.value} href={`/catalog?category=${cat.value}`} id={`cat-${cat.value}`}
               className="card-hover rounded-2xl p-5 text-center group" style={{ background: "var(--bg-card)", border: "1px solid var(--border)" }}>

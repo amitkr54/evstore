@@ -11,7 +11,12 @@
       "id": "ola",
       "name": "OLA",
       "displayName": "OLA Electric",
-      "models": ["S1 Pro", "S1 Air", "S1X", "S1X+"],
+      "models": [
+        "S1 Pro",
+        "S1 Air",
+        "S1X",
+        "S1X+"
+      ],
       "color": "#E8272A",
       "gradient": "from-red-600 to-red-800",
       "logo": "<svg viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg' stroke='currentColor' stroke-width='8' stroke-linecap='round'><circle cx='50' cy='50' r='38' stroke-dasharray='160 50' /><path d='M42 32L58 50H42L58 68' stroke-width='6' /></svg>"
@@ -20,7 +25,11 @@
       "id": "tvs",
       "name": "TVS",
       "displayName": "TVS iQube",
-      "models": ["iQube S", "iQube ST", "iQube Electric"],
+      "models": [
+        "iQube S",
+        "iQube ST",
+        "iQube Electric"
+      ],
       "color": "#0052A5",
       "gradient": "from-blue-600 to-blue-900",
       "logo": "<svg viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg' stroke='currentColor' stroke-width='8' stroke-linecap='round' stroke-linejoin='round'><path d='M15 80C30 80 40 60 55 50C70 40 85 45 90 30C95 15 80 5 70 15C60 25 45 45 30 55C15 65 10 70 10 80Z'/><path d='M65 15C70 25 60 35 50 35' stroke='currentColor' stroke-width='4'/></svg>"
@@ -29,7 +38,11 @@
       "id": "ather",
       "name": "Ather",
       "displayName": "Ather Energy",
-      "models": ["450X", "450S", "Rizta"],
+      "models": [
+        "450X",
+        "450S",
+        "Rizta"
+      ],
       "color": "#00A651",
       "gradient": "from-green-500 to-emerald-700",
       "logo": "<svg viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg' stroke='currentColor' stroke-width='9' stroke-linecap='round'><circle cx='50' cy='50' r='38'/><path d='M35 70 L50 32 L65 70 M41 56 H59'/></svg>"
@@ -38,107 +51,1377 @@
       "id": "bajaj",
       "name": "Bajaj",
       "displayName": "Bajaj Chetak",
-      "models": ["Urbane", "Premium"],
+      "models": [
+        "Urbane",
+        "Premium"
+      ],
       "color": "#1F3A8A",
       "gradient": "from-indigo-700 to-indigo-900",
       "logo": "<svg viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg' stroke='currentColor' stroke-width='9' stroke-linecap='round'><path d='M75 30 C65 20 50 18 38 25 C25 32 18 48 22 62 C26 77 42 85 55 80 C68 75 75 62 75 50' /></svg>"
+    },
+    {
+      "id": "hero",
+      "name": "Hero",
+      "displayName": "Hero Vida",
+      "models": [
+        "V2 Lite",
+        "V2 Plus",
+        "V2 Pro",
+        "VX2 Go",
+        "VX2 Plus"
+      ],
+      "color": "#6D28D9",
+      "gradient": "from-violet-600 to-purple-900",
+      "logo": "<svg viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg' stroke='currentColor' stroke-width='9' stroke-linecap='round'><path d='M20 75 L35 25 L50 55 L65 25 L80 75'/></svg>"
+    },
+    {
+      "id": "ampere",
+      "name": "Ampere",
+      "displayName": "Ampere Nexus",
+      "models": [
+        "Nexus EX",
+        "Nexus ST",
+        "Magnus Neo",
+        "Magnus Grand"
+      ],
+      "color": "#B45309",
+      "gradient": "from-amber-600 to-yellow-800",
+      "logo": "<svg viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg' stroke='currentColor' stroke-width='9' stroke-linecap='round'><polygon points='50,15 85,80 15,80'/><line x1='50' y1='45' x2='50' y2='65'/><circle cx='50' cy='72' r='3' fill='currentColor'/></svg>"
     }
   ],
   "products": [
     {
-      "id": "ola-cable-combo",
-      "name": "3-Piece Cable Combo (Front/Rear Brake + Acc.)",
+      "id": "ola-charger_gun_cap__port_cover-5",
+      "name": "Charger Gun Cap / Port Cover",
       "brand": "ola",
-      "compatibleModels": ["S1 Pro", "S1 Air", "S1X", "S1X+"],
-      "category": "cables",
-      "salePrice": 399,
-      "wholesaleCost": 130,
-      "description": "Front & Rear Brake + Accelerator Throttle Cable Set",
-      "longDescription": "High-demand replacement cable combo for OLA S1 Electric scooters. Resolves the common 15-20 day waiting period at official OLA service centers. Built with premium stainless steel wire core and anti-corrosion outer sleeves for smooth control.",
-      "images": [
-        "https://images.unsplash.com/photo-1485965120184-e220f721d03e?w=600&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop"
+      "compatibleModels": [
+        "S1 Pro",
+        "S1 Air",
+        "S1X",
+        "S1X+"
       ],
-      "stock": 120,
-      "rating": 4.6,
-      "reviewCount": 382,
-      "tags": ["cables", "brake cable", "accelerator cable", "ola parts"],
-      "frequentlyBoughtWith": ["ola-screen-guard", "ola-crash-guard"],
-      "isBestseller": true,
-      "isNew": false
-    },
-    {
-      "id": "ola-screen-guard",
-      "name": "Tempered Screen Guard (Touchscreen)",
-      "brand": "ola",
-      "compatibleModels": ["S1 Pro", "S1 Air", "S1X", "S1X+"],
-      "category": "protection",
-      "salePrice": 199,
-      "wholesaleCost": 30,
-      "description": "9H Hardness Ultra Clear Touchscreen Tempered Glass",
-      "longDescription": "Premium 9H tempered glass screen guard custom cut for the OLA S1 dashboard. Prevents screen degradation and water damage from direct sunlight and heavy rain. Highly recommended day-one purchase for new owners.",
+      "category": "charger",
+      "salePrice": 189,
+      "wholesaleCost": 40,
+      "description": "Charger Gun Cap / Port Cover — Compatible with S1X / S1 Air / S1 / S1 Pro",
+      "longDescription": "Premium aftermarket replacement for S1 Pro, S1 Air, S1X, S1X+. Compatible with: S1X / S1 Air / S1 / S1 Pro. Trusted by thousands of EV owners across India.",
       "images": [
-        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&auto=format&fit=crop"
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1527018601619-a508a2be00cd?w=600&auto=format&fit=crop"
       ],
-      "stock": 450,
-      "rating": 4.8,
-      "reviewCount": 984,
-      "tags": ["screen guard", "protection", "tempered glass", "touchscreen"],
-      "frequentlyBoughtWith": ["ola-cable-combo", "ola-crash-guard"],
+      "stock": 600,
+      "rating": 4.3,
+      "reviewCount": 1800,
+      "tags": [
+        "charger",
+        "gun",
+        "cap",
+        "port",
+        "cover",
+        "ola"
+      ],
+      "frequentlyBoughtWith": [
+        "ola-screen-guard",
+        "ola-tempered_glass_screen_guard_s1x-1"
+      ],
       "isBestseller": true,
       "isNew": false
     },
     {
       "id": "ola-crash-guard",
-      "name": "Full Body Metal Crash Guard",
+      "name": "Front & Rear Crash Guard + Foldable Footrest + Backrest",
       "brand": "ola",
-      "compatibleModels": ["S1 Pro", "S1 Air", "S1X", "S1X+"],
+      "compatibleModels": [
+        "S1 Pro",
+        "S1 Air",
+        "S1X",
+        "S1X+"
+      ],
       "category": "guards",
-      "salePrice": 2999,
-      "wholesaleCost": 1200,
-      "description": "Heavy-Duty Powder Coated Metal Crash Guard kit",
-      "longDescription": "Robust full-body wrap-around metal protection guard frame. OLA's stock fibre/plastic body panel breaks easily on minor falls; this steel guard absorbs all impacts to save you thousands in panel replacement costs.",
+      "salePrice": 480,
+      "wholesaleCost": 150,
+      "description": "Front & Rear Crash Guard + Foldable Footrest + Backrest — Compatible with S1 / S1 Pro Gen 1&2",
+      "longDescription": "Premium aftermarket replacement for S1 Pro, S1 Air, S1X, S1X+. Compatible with: S1 / S1 Pro Gen 1&2. Trusted by thousands of EV owners across India.",
       "images": [
         "https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=600&auto=format&fit=crop",
         "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=600&auto=format&fit=crop"
       ],
-      "stock": 48,
-      "rating": 4.7,
-      "reviewCount": 194,
-      "tags": ["crash guard", "protection", "metal frame", "safety"],
-      "frequentlyBoughtWith": ["ola-screen-guard", "ola-cable-combo"],
+      "stock": 600,
+      "rating": 4.3,
+      "reviewCount": 1800,
+      "tags": [
+        "front",
+        "rear",
+        "crash",
+        "guard",
+        "foldable",
+        "footrest",
+        "backrest",
+        "guards"
+      ],
+      "frequentlyBoughtWith": [
+        "ola-screen-guard",
+        "ola-tempered_glass_screen_guard_s1x-1"
+      ],
+      "isBestseller": true,
+      "isNew": false
+    },
+    {
+      "id": "ola-screen-guard",
+      "name": "Tempered Glass Screen Guard (9H Full Cover)",
+      "brand": "ola",
+      "compatibleModels": [
+        "S1 Pro",
+        "S1 Air",
+        "S1X",
+        "S1X+"
+      ],
+      "category": "protection",
+      "salePrice": 159,
+      "wholesaleCost": 30,
+      "description": "Tempered Glass Screen Guard (9H Full Cover) — Compatible with S1 / S1 Pro / S1 Air Gen 2",
+      "longDescription": "Premium aftermarket replacement for S1 Pro, S1 Air, S1X, S1X+. Compatible with: S1 / S1 Pro / S1 Air Gen 2. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&auto=format&fit=crop"
+      ],
+      "stock": 333,
+      "rating": 4.1,
+      "reviewCount": 1000,
+      "tags": [
+        "tempered",
+        "glass",
+        "screen",
+        "guard",
+        "full",
+        "cover",
+        "protection",
+        "ola"
+      ],
+      "frequentlyBoughtWith": [
+        "ola-tpu_charger_socket_dust_cap_dustpr-3",
+        "ola-charger_socket_cap_premium_tpu_te-4"
+      ],
+      "isBestseller": true,
+      "isNew": false
+    },
+    {
+      "id": "ola-tempered_glass_screen_guard_s1x-1",
+      "name": "Tempered Glass Screen Guard (S1X / S1X+)",
+      "brand": "ola",
+      "compatibleModels": [
+        "S1 Pro",
+        "S1 Air",
+        "S1X",
+        "S1X+"
+      ],
+      "category": "protection",
+      "salePrice": 159,
+      "wholesaleCost": 30,
+      "description": "Tempered Glass Screen Guard (S1X / S1X+) — Compatible with S1X / S1X Plus",
+      "longDescription": "Premium aftermarket replacement for S1 Pro, S1 Air, S1X, S1X+. Compatible with: S1X / S1X Plus. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&auto=format&fit=crop"
+      ],
+      "stock": 319,
+      "rating": 4.1,
+      "reviewCount": 958,
+      "tags": [
+        "tempered",
+        "glass",
+        "screen",
+        "guard",
+        "s1x",
+        "protection",
+        "ola"
+      ],
+      "frequentlyBoughtWith": [
+        "ola-tpu_charger_socket_dust_cap_dustpr-3",
+        "ola-charger_socket_cap_premium_tpu_te-4"
+      ],
+      "isBestseller": true,
+      "isNew": false
+    },
+    {
+      "id": "ola-charger_socket_cap_premium_tpu_te-4",
+      "name": "Charger Socket Cap (Premium TPU, Textured)",
+      "brand": "ola",
+      "compatibleModels": [
+        "S1 Pro",
+        "S1 Air",
+        "S1X",
+        "S1X+"
+      ],
+      "category": "charger",
+      "salePrice": 199,
+      "wholesaleCost": 45,
+      "description": "Charger Socket Cap (Premium TPU, Textured) — Compatible with All OLA Gen 1 & Gen 2",
+      "longDescription": "Premium aftermarket replacement for S1 Pro, S1 Air, S1X, S1X+. Compatible with: All OLA Gen 1 & Gen 2. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1527018601619-a508a2be00cd?w=600&auto=format&fit=crop"
+      ],
+      "stock": 307,
+      "rating": 4.1,
+      "reviewCount": 923,
+      "tags": [
+        "charger",
+        "socket",
+        "cap",
+        "premium",
+        "tpu,",
+        "textured",
+        "ola"
+      ],
+      "frequentlyBoughtWith": [
+        "ola-screen-guard",
+        "ola-tempered_glass_screen_guard_s1x-1"
+      ],
+      "isBestseller": true,
+      "isNew": false
+    },
+    {
+      "id": "ola-crash_guard__foldable_footrest_s1-8",
+      "name": "Crash Guard + Foldable Footrest (S1X Gen 3)",
+      "brand": "ola",
+      "compatibleModels": [
+        "S1 Pro",
+        "S1 Air",
+        "S1X",
+        "S1X+"
+      ],
+      "category": "guards",
+      "salePrice": 525,
+      "wholesaleCost": 160,
+      "description": "Crash Guard + Foldable Footrest (S1X Gen 3) — Compatible with S1X / S1X+ Gen 2&3",
+      "longDescription": "Premium aftermarket replacement for S1 Pro, S1 Air, S1X, S1X+. Compatible with: S1X / S1X+ Gen 2&3. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=600&auto=format&fit=crop"
+      ],
+      "stock": 133,
+      "rating": 4.1,
+      "reviewCount": 400,
+      "tags": [
+        "crash",
+        "guard",
+        "foldable",
+        "footrest",
+        "s1x",
+        "gen",
+        "guards",
+        "ola"
+      ],
+      "frequentlyBoughtWith": [
+        "ola-screen-guard",
+        "ola-tempered_glass_screen_guard_s1x-1"
+      ],
+      "isBestseller": true,
+      "isNew": true
+    },
+    {
+      "id": "ola-cable-combo",
+      "name": "3-Piece Cable Combo — Front & Rear Brake + Accelerator",
+      "brand": "ola",
+      "compatibleModels": [
+        "S1 Pro",
+        "S1 Air",
+        "S1X",
+        "S1X+"
+      ],
+      "category": "cables",
+      "salePrice": 399,
+      "wholesaleCost": 130,
+      "description": "3-Piece Cable Combo — Front & Rear Brake + Accelerator — Compatible with S1 Pro / S1 Air / S1X / S1X+",
+      "longDescription": "Premium aftermarket replacement for S1 Pro, S1 Air, S1X, S1X+. Compatible with: S1 Pro / S1 Air / S1X / S1X+. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1485965120184-e220f721d03e?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop"
+      ],
+      "stock": 127,
+      "rating": 4.4,
+      "reviewCount": 382,
+      "tags": [
+        "3-piece",
+        "cable",
+        "combo",
+        "front",
+        "rear",
+        "brake",
+        "accelerator",
+        "cables"
+      ],
+      "frequentlyBoughtWith": [
+        "ola-screen-guard",
+        "ola-tempered_glass_screen_guard_s1x-1"
+      ],
+      "isBestseller": true,
+      "isNew": false
+    },
+    {
+      "id": "ola-padded_pillion_backrest-12",
+      "name": "Padded Pillion Backrest",
+      "brand": "ola",
+      "compatibleModels": [
+        "S1 Pro",
+        "S1 Air",
+        "S1X",
+        "S1X+"
+      ],
+      "category": "comfort",
+      "salePrice": 533,
+      "wholesaleCost": 160,
+      "description": "Padded Pillion Backrest — Compatible with S1 / S1 Pro / S1 Air / S1X / S1X+",
+      "longDescription": "Premium aftermarket replacement for S1 Pro, S1 Air, S1X, S1X+. Compatible with: S1 / S1 Pro / S1 Air / S1X / S1X+. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1598153346810-860daa814c4b?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=600&auto=format&fit=crop"
+      ],
+      "stock": 96,
+      "rating": 3.9,
+      "reviewCount": 289,
+      "tags": [
+        "padded",
+        "pillion",
+        "backrest",
+        "comfort",
+        "ola"
+      ],
+      "frequentlyBoughtWith": [
+        "ola-screen-guard",
+        "ola-tempered_glass_screen_guard_s1x-1"
+      ],
+      "isBestseller": true,
+      "isNew": false
+    },
+    {
+      "id": "ola-tpu_charger_socket_dust_cap_dustpr-3",
+      "name": "TPU Charger Socket Dust Cap (Dustproof + Waterproof)",
+      "brand": "ola",
+      "compatibleModels": [
+        "S1 Pro",
+        "S1 Air",
+        "S1X",
+        "S1X+"
+      ],
+      "category": "charger",
+      "salePrice": 169,
+      "wholesaleCost": 40,
+      "description": "TPU Charger Socket Dust Cap (Dustproof + Waterproof) — Compatible with S1 Pro Gen 1&2 / S1 Air / S1X",
+      "longDescription": "Premium aftermarket replacement for S1 Pro, S1 Air, S1X, S1X+. Compatible with: S1 Pro Gen 1&2 / S1 Air / S1X. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1527018601619-a508a2be00cd?w=600&auto=format&fit=crop"
+      ],
+      "stock": 85,
+      "rating": 4.3,
+      "reviewCount": 255,
+      "tags": [
+        "tpu",
+        "charger",
+        "socket",
+        "dust",
+        "cap",
+        "dustproof",
+        "waterproof",
+        "ola"
+      ],
+      "frequentlyBoughtWith": [
+        "ola-screen-guard",
+        "ola-tempered_glass_screen_guard_s1x-1"
+      ],
+      "isBestseller": true,
+      "isNew": false
+    },
+    {
+      "id": "ola-floor_mat__3d_anti-slip_foot_mat-11",
+      "name": "Floor Mat / 3D Anti-Slip Foot Mat",
+      "brand": "ola",
+      "compatibleModels": [
+        "S1 Pro",
+        "S1 Air",
+        "S1X",
+        "S1X+"
+      ],
+      "category": "comfort",
+      "salePrice": 189,
+      "wholesaleCost": 50,
+      "description": "Floor Mat / 3D Anti-Slip Foot Mat — Compatible with S1 / S1 Pro / S1 Air",
+      "longDescription": "Premium aftermarket replacement for S1 Pro, S1 Air, S1X, S1X+. Compatible with: S1 / S1 Pro / S1 Air. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1598153346810-860daa814c4b?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=600&auto=format&fit=crop"
+      ],
+      "stock": 63,
+      "rating": 3.4,
+      "reviewCount": 191,
+      "tags": [
+        "floor",
+        "mat",
+        "anti-slip",
+        "foot",
+        "comfort",
+        "ola"
+      ],
+      "frequentlyBoughtWith": [
+        "ola-screen-guard",
+        "ola-tempered_glass_screen_guard_s1x-1"
+      ],
+      "isBestseller": true,
+      "isNew": false
+    },
+    {
+      "id": "ola-nano_glass_impossible_fiber_screen-2",
+      "name": "Nano Glass Impossible Fiber Screen Guard",
+      "brand": "ola",
+      "compatibleModels": [
+        "S1 Pro",
+        "S1 Air",
+        "S1X",
+        "S1X+"
+      ],
+      "category": "protection",
+      "salePrice": 149,
+      "wholesaleCost": 25,
+      "description": "Nano Glass Impossible Fiber Screen Guard — Compatible with S1 / S1 Pro / S1 Air",
+      "longDescription": "Premium aftermarket replacement for S1 Pro, S1 Air, S1X, S1X+. Compatible with: S1 / S1 Pro / S1 Air. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&auto=format&fit=crop"
+      ],
+      "stock": 38,
+      "rating": 3.8,
+      "reviewCount": 116,
+      "tags": [
+        "nano",
+        "glass",
+        "impossible",
+        "fiber",
+        "screen",
+        "guard",
+        "protection",
+        "ola"
+      ],
+      "frequentlyBoughtWith": [
+        "ola-tpu_charger_socket_dust_cap_dustpr-3",
+        "ola-charger_socket_cap_premium_tpu_te-4"
+      ],
+      "isBestseller": true,
+      "isNew": false
+    },
+    {
+      "id": "ola-number_plate_frame__holder-16",
+      "name": "Number Plate Frame / Holder",
+      "brand": "ola",
+      "compatibleModels": [
+        "S1 Pro",
+        "S1 Air",
+        "S1X",
+        "S1X+"
+      ],
+      "category": "utility",
+      "salePrice": 139,
+      "wholesaleCost": 35,
+      "description": "Number Plate Frame / Holder — Compatible with All OLA models",
+      "longDescription": "Premium aftermarket replacement for S1 Pro, S1 Air, S1X, S1X+. Compatible with: All OLA models. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop"
+      ],
+      "stock": 26,
+      "rating": 3.7,
+      "reviewCount": 80,
+      "tags": [
+        "number",
+        "plate",
+        "frame",
+        "holder",
+        "utility",
+        "ola"
+      ],
+      "frequentlyBoughtWith": [
+        "ola-screen-guard",
+        "ola-tempered_glass_screen_guard_s1x-1"
+      ],
+      "isBestseller": true,
+      "isNew": false
+    },
+    {
+      "id": "ola-ladies__pillion_footrest_heavy_du-13",
+      "name": "Ladies / Pillion Footrest (Heavy Duty Iron Rod)",
+      "brand": "ola",
+      "compatibleModels": [
+        "S1 Pro",
+        "S1 Air",
+        "S1X",
+        "S1X+"
+      ],
+      "category": "comfort",
+      "salePrice": 401,
+      "wholesaleCost": 120,
+      "description": "Ladies / Pillion Footrest (Heavy Duty Iron Rod) — Compatible with S1X / S1 Pro Gen 2",
+      "longDescription": "Premium aftermarket replacement for S1 Pro, S1 Air, S1X, S1X+. Compatible with: S1X / S1 Pro Gen 2. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1598153346810-860daa814c4b?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=600&auto=format&fit=crop"
+      ],
+      "stock": 68,
+      "rating": 4.0,
+      "reviewCount": 205,
+      "tags": [
+        "ladies",
+        "pillion",
+        "footrest",
+        "heavy",
+        "duty",
+        "iron",
+        "rod",
+        "comfort"
+      ],
+      "frequentlyBoughtWith": [
+        "ola-screen-guard",
+        "ola-tempered_glass_screen_guard_s1x-1"
+      ],
+      "isBestseller": false,
+      "isNew": true
+    },
+    {
+      "id": "ola-mobile_holder_with_usb_charging_ha-15",
+      "name": "Mobile Holder with USB Charging (Handlebar)",
+      "brand": "ola",
+      "compatibleModels": [
+        "S1 Pro",
+        "S1 Air",
+        "S1X",
+        "S1X+"
+      ],
+      "category": "utility",
+      "salePrice": 458,
+      "wholesaleCost": 120,
+      "description": "Mobile Holder with USB Charging (Handlebar) — Compatible with All OLA models",
+      "longDescription": "Premium aftermarket replacement for S1 Pro, S1 Air, S1X, S1X+. Compatible with: All OLA models. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop"
+      ],
+      "stock": 68,
+      "rating": 4.0,
+      "reviewCount": 205,
+      "tags": [
+        "mobile",
+        "holder",
+        "with",
+        "usb",
+        "charging",
+        "handlebar",
+        "utility",
+        "ola"
+      ],
+      "frequentlyBoughtWith": [
+        "ola-screen-guard",
+        "ola-tempered_glass_screen_guard_s1x-1"
+      ],
+      "isBestseller": false,
+      "isNew": false
+    },
+    {
+      "id": "ola-premium_seat_cover__boot_mat_combo-14",
+      "name": "Premium Seat Cover + Boot Mat Combo",
+      "brand": "ola",
+      "compatibleModels": [
+        "S1 Pro",
+        "S1 Air",
+        "S1X",
+        "S1X+"
+      ],
+      "category": "comfort",
+      "salePrice": 599,
+      "wholesaleCost": 190,
+      "description": "Premium Seat Cover + Boot Mat Combo — Compatible with S1 / S1 Pro / S1 Air / S1X",
+      "longDescription": "Premium aftermarket replacement for S1 Pro, S1 Air, S1X, S1X+. Compatible with: S1 / S1 Pro / S1 Air / S1X. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1598153346810-860daa814c4b?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=600&auto=format&fit=crop"
+      ],
+      "stock": 60,
+      "rating": 4.0,
+      "reviewCount": 182,
+      "tags": [
+        "premium",
+        "seat",
+        "cover",
+        "boot",
+        "mat",
+        "combo",
+        "comfort",
+        "ola"
+      ],
+      "frequentlyBoughtWith": [
+        "ola-screen-guard",
+        "ola-tempered_glass_screen_guard_s1x-1"
+      ],
+      "isBestseller": false,
+      "isNew": false
+    },
+    {
+      "id": "ola-drive_belt__powertrain_belt_oem_c-18",
+      "name": "Drive Belt / Powertrain Belt (OEM Compatible)",
+      "brand": "ola",
+      "compatibleModels": [
+        "S1 Pro",
+        "S1 Air",
+        "S1X",
+        "S1X+"
+      ],
+      "category": "spares",
+      "salePrice": 2942,
+      "wholesaleCost": 900,
+      "description": "Drive Belt / Powertrain Belt (OEM Compatible) — Compatible with S1 Pro Gen 2 / Gen 3",
+      "longDescription": "Premium aftermarket replacement for S1 Pro, S1 Air, S1X, S1X+. Compatible with: S1 Pro Gen 2 / Gen 3. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1504222490345-c075b626c88b?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop"
+      ],
+      "stock": 45,
+      "rating": 4.2,
+      "reviewCount": 135,
+      "tags": [
+        "drive",
+        "belt",
+        "powertrain",
+        "oem",
+        "compatible",
+        "spares",
+        "ola"
+      ],
+      "frequentlyBoughtWith": [
+        "ola-screen-guard",
+        "ola-tempered_glass_screen_guard_s1x-1"
+      ],
+      "isBestseller": false,
+      "isNew": false
+    },
+    {
+      "id": "ola-wall_mount_charger_holder_with_lock-6",
+      "name": "Wall Mount Charger Holder with Lock & Key",
+      "brand": "ola",
+      "compatibleModels": [
+        "S1 Pro",
+        "S1 Air",
+        "S1X",
+        "S1X+"
+      ],
+      "category": "charger",
+      "salePrice": 256,
+      "wholesaleCost": 70,
+      "description": "Wall Mount Charger Holder with Lock & Key — Compatible with S1 Pro / S1 Air / S1X Gen 2&3",
+      "longDescription": "Premium aftermarket replacement for S1 Pro, S1 Air, S1X, S1X+. Compatible with: S1 Pro / S1 Air / S1X Gen 2&3. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1527018601619-a508a2be00cd?w=600&auto=format&fit=crop"
+      ],
+      "stock": 42,
+      "rating": 3.8,
+      "reviewCount": 126,
+      "tags": [
+        "wall",
+        "mount",
+        "charger",
+        "holder",
+        "with",
+        "lock",
+        "key",
+        "ola"
+      ],
+      "frequentlyBoughtWith": [
+        "ola-screen-guard",
+        "ola-tempered_glass_screen_guard_s1x-1"
+      ],
+      "isBestseller": false,
+      "isNew": false
+    },
+    {
+      "id": "ola-rear_shock_absorber_suspension-19",
+      "name": "Rear Shock Absorber (Suspension)",
+      "brand": "ola",
+      "compatibleModels": [
+        "S1 Pro",
+        "S1 Air",
+        "S1X",
+        "S1X+"
+      ],
+      "category": "spares",
+      "salePrice": 3099,
+      "wholesaleCost": 950,
+      "description": "Rear Shock Absorber (Suspension) — Compatible with S1 / S1 Pro Gen 1",
+      "longDescription": "Premium aftermarket replacement for S1 Pro, S1 Air, S1X, S1X+. Compatible with: S1 / S1 Pro Gen 1. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1504222490345-c075b626c88b?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop"
+      ],
+      "stock": 13,
+      "rating": 3.9,
+      "reviewCount": 40,
+      "tags": [
+        "rear",
+        "shock",
+        "absorber",
+        "suspension",
+        "spares",
+        "ola"
+      ],
+      "frequentlyBoughtWith": [
+        "ola-screen-guard",
+        "ola-tempered_glass_screen_guard_s1x-1"
+      ],
+      "isBestseller": false,
+      "isNew": false
+    },
+    {
+      "id": "ola-all-in-one_combo_kit_guard_footres-9",
+      "name": "All-In-One Combo Kit (Guard+Footrest+Backrest+Mat)",
+      "brand": "ola",
+      "compatibleModels": [
+        "S1 Pro",
+        "S1 Air",
+        "S1X",
+        "S1X+"
+      ],
+      "category": "combo",
+      "salePrice": 1049,
+      "wholesaleCost": 320,
+      "description": "All-In-One Combo Kit (Guard+Footrest+Backrest+Mat) — Compatible with S1 Air / S1X / S1 Pro Gen 2&3",
+      "longDescription": "Premium aftermarket replacement for S1 Pro, S1 Air, S1X, S1X+. Compatible with: S1 Air / S1X / S1 Pro Gen 2&3. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1607603750909-408e19385117?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1527018601619-a508a2be00cd?w=600&auto=format&fit=crop"
+      ],
+      "stock": 10,
+      "rating": 4.3,
+      "reviewCount": 10,
+      "tags": [
+        "all-in-one",
+        "combo",
+        "kit",
+        "guard",
+        "footrest",
+        "backrest",
+        "mat",
+        "ola"
+      ],
+      "frequentlyBoughtWith": [
+        "ola-screen-guard",
+        "ola-tempered_glass_screen_guard_s1x-1"
+      ],
+      "isBestseller": false,
+      "isNew": true
+    },
+    {
+      "id": "ola-full_body_waterproof_scooter_cover-17",
+      "name": "Full Body Waterproof Scooter Cover (UV+Dustproof)",
+      "brand": "ola",
+      "compatibleModels": [
+        "S1 Pro",
+        "S1 Air",
+        "S1X",
+        "S1X+"
+      ],
+      "category": "covers",
+      "salePrice": 629,
+      "wholesaleCost": 190,
+      "description": "Full Body Waterproof Scooter Cover (UV+Dustproof) — Compatible with All OLA models",
+      "longDescription": "Premium aftermarket replacement for S1 Pro, S1 Air, S1X, S1X+. Compatible with: All OLA models. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1508962914676-134849a727f0?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1527018601619-a508a2be00cd?w=600&auto=format&fit=crop"
+      ],
+      "stock": 10,
+      "rating": 4.1,
+      "reviewCount": 9,
+      "tags": [
+        "full",
+        "body",
+        "waterproof",
+        "scooter",
+        "cover",
+        "dustproof",
+        "covers",
+        "ola"
+      ],
+      "frequentlyBoughtWith": [
+        "ola-screen-guard",
+        "ola-tempered_glass_screen_guard_s1x-1"
+      ],
+      "isBestseller": false,
+      "isNew": false
+    },
+    {
+      "id": "tvs-stainless_steel_safety_guard_full_s-3",
+      "name": "Stainless Steel Safety Guard Full Set + Foldable Footrest",
+      "brand": "tvs",
+      "compatibleModels": [
+        "iQube S",
+        "iQube ST",
+        "iQube Electric"
+      ],
+      "category": "guards",
+      "salePrice": 1199,
+      "wholesaleCost": 320,
+      "description": "Stainless Steel Safety Guard Full Set + Foldable Footrest — Compatible with iQube S / iQube ST / Electric all gen",
+      "longDescription": "Premium aftermarket replacement for iQube S, iQube ST, iQube Electric. Compatible with: iQube S / iQube ST / Electric all gen. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=600&auto=format&fit=crop"
+      ],
+      "stock": 104,
+      "rating": 4.5,
+      "reviewCount": 312,
+      "tags": [
+        "stainless",
+        "steel",
+        "safety",
+        "guard",
+        "full",
+        "set",
+        "foldable",
+        "footrest"
+      ],
+      "frequentlyBoughtWith": [
+        "tvs-9h_tempered_glass_screen_guard_6-i-0",
+        "tvs-nano_glass_speedometer_screen_guard-1"
+      ],
+      "isBestseller": true,
+      "isNew": false
+    },
+    {
+      "id": "tvs-9h_tempered_glass_screen_guard_6-i-0",
+      "name": "9H Tempered Glass Screen Guard (6-inch TFT)",
+      "brand": "tvs",
+      "compatibleModels": [
+        "iQube S",
+        "iQube ST",
+        "iQube Electric"
+      ],
+      "category": "protection",
+      "salePrice": 159,
+      "wholesaleCost": 30,
+      "description": "9H Tempered Glass Screen Guard (6-inch TFT) — Compatible with iQube S / iQube ST / Electric all variants",
+      "longDescription": "Premium aftermarket replacement for iQube S, iQube ST, iQube Electric. Compatible with: iQube S / iQube ST / Electric all variants. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&auto=format&fit=crop"
+      ],
+      "stock": 103,
+      "rating": 4.2,
+      "reviewCount": 310,
+      "tags": [
+        "tempered",
+        "glass",
+        "screen",
+        "guard",
+        "6-inch",
+        "tft",
+        "protection",
+        "tvs"
+      ],
+      "frequentlyBoughtWith": [
+        "tvs-stainless_steel_safety_guard_full_s-3",
+        "tvs-crash_guard__foldable_footrest__m-4"
+      ],
+      "isBestseller": true,
+      "isNew": false
+    },
+    {
+      "id": "tvs-nano_glass_speedometer_screen_guard-1",
+      "name": "Nano Glass Speedometer Screen Guard",
+      "brand": "tvs",
+      "compatibleModels": [
+        "iQube S",
+        "iQube ST",
+        "iQube Electric"
+      ],
+      "category": "protection",
+      "salePrice": 135,
+      "wholesaleCost": 25,
+      "description": "Nano Glass Speedometer Screen Guard — Compatible with iQube EV all variants",
+      "longDescription": "Premium aftermarket replacement for iQube S, iQube ST, iQube Electric. Compatible with: iQube EV all variants. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&auto=format&fit=crop"
+      ],
+      "stock": 60,
+      "rating": 4.0,
+      "reviewCount": 180,
+      "tags": [
+        "nano",
+        "glass",
+        "speedometer",
+        "screen",
+        "guard",
+        "protection",
+        "tvs"
+      ],
+      "frequentlyBoughtWith": [
+        "tvs-stainless_steel_safety_guard_full_s-3",
+        "tvs-crash_guard__foldable_footrest__m-4"
+      ],
+      "isBestseller": true,
+      "isNew": false
+    },
+    {
+      "id": "tvs-number_plate_frame_ss_chrome-14",
+      "name": "Number Plate Frame (SS Chrome)",
+      "brand": "tvs",
+      "compatibleModels": [
+        "iQube S",
+        "iQube ST",
+        "iQube Electric"
+      ],
+      "category": "utility",
+      "salePrice": 199,
+      "wholesaleCost": 45,
+      "description": "Number Plate Frame (SS Chrome) — Compatible with All iQube models",
+      "longDescription": "Premium aftermarket replacement for iQube S, iQube ST, iQube Electric. Compatible with: All iQube models. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop"
+      ],
+      "stock": 36,
+      "rating": 4.0,
+      "reviewCount": 110,
+      "tags": [
+        "number",
+        "plate",
+        "frame",
+        "chrome",
+        "utility",
+        "tvs"
+      ],
+      "frequentlyBoughtWith": [
+        "tvs-9h_tempered_glass_screen_guard_6-i-0",
+        "tvs-nano_glass_speedometer_screen_guard-1"
+      ],
+      "isBestseller": true,
+      "isNew": false
+    },
+    {
+      "id": "tvs-crash_guard__foldable_footrest__m-4",
+      "name": "Crash Guard + Foldable Footrest + Mud Guard Combo",
+      "brand": "tvs",
+      "compatibleModels": [
+        "iQube S",
+        "iQube ST",
+        "iQube Electric"
+      ],
+      "category": "guards",
+      "salePrice": 3699,
+      "wholesaleCost": 1200,
+      "description": "Crash Guard + Foldable Footrest + Mud Guard Combo — Compatible with iQube S / iQube ST",
+      "longDescription": "Premium aftermarket replacement for iQube S, iQube ST, iQube Electric. Compatible with: iQube S / iQube ST. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=600&auto=format&fit=crop"
+      ],
+      "stock": 40,
+      "rating": 4.5,
+      "reviewCount": 120,
+      "tags": [
+        "crash",
+        "guard",
+        "foldable",
+        "footrest",
+        "mud",
+        "combo",
+        "guards",
+        "tvs"
+      ],
+      "frequentlyBoughtWith": [
+        "tvs-9h_tempered_glass_screen_guard_6-i-0",
+        "tvs-nano_glass_speedometer_screen_guard-1"
+      ],
+      "isBestseller": false,
+      "isNew": false
+    },
+    {
+      "id": "tvs-anti-fingerprint_touch_screen_prote-2",
+      "name": "Anti-Fingerprint Touch Screen Protector (7-inch)",
+      "brand": "tvs",
+      "compatibleModels": [
+        "iQube S",
+        "iQube ST",
+        "iQube Electric"
+      ],
+      "category": "protection",
+      "salePrice": 149,
+      "wholesaleCost": 28,
+      "description": "Anti-Fingerprint Touch Screen Protector (7-inch) — Compatible with iQube S Smart (7-inch)",
+      "longDescription": "Premium aftermarket replacement for iQube S, iQube ST, iQube Electric. Compatible with: iQube S Smart (7-inch). Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&auto=format&fit=crop"
+      ],
+      "stock": 31,
+      "rating": 3.9,
+      "reviewCount": 95,
+      "tags": [
+        "anti-fingerprint",
+        "touch",
+        "screen",
+        "protector",
+        "7-inch",
+        "protection",
+        "tvs"
+      ],
+      "frequentlyBoughtWith": [
+        "tvs-stainless_steel_safety_guard_full_s-3",
+        "tvs-crash_guard__foldable_footrest__m-4"
+      ],
+      "isBestseller": false,
+      "isNew": true
+    },
+    {
+      "id": "tvs-premium_seat_cover_narrow_stitch-8",
+      "name": "Premium Seat Cover (Narrow Stitch)",
+      "brand": "tvs",
+      "compatibleModels": [
+        "iQube S",
+        "iQube ST",
+        "iQube Electric"
+      ],
+      "category": "comfort",
+      "salePrice": 599,
+      "wholesaleCost": 190,
+      "description": "Premium Seat Cover (Narrow Stitch) — Compatible with iQube S / iQube ST all gen",
+      "longDescription": "Premium aftermarket replacement for iQube S, iQube ST, iQube Electric. Compatible with: iQube S / iQube ST all gen. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1598153346810-860daa814c4b?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=600&auto=format&fit=crop"
+      ],
+      "stock": 30,
+      "rating": 4.1,
+      "reviewCount": 90,
+      "tags": [
+        "premium",
+        "seat",
+        "cover",
+        "narrow",
+        "stitch",
+        "comfort",
+        "tvs"
+      ],
+      "frequentlyBoughtWith": [
+        "tvs-9h_tempered_glass_screen_guard_6-i-0",
+        "tvs-nano_glass_speedometer_screen_guard-1"
+      ],
       "isBestseller": false,
       "isNew": false
     },
     {
       "id": "tvs-footrest",
-      "name": "Heavy Duty Ladies Footrest",
+      "name": "Ladies / Pillion Footrest (Heavy Duty SS)",
       "brand": "tvs",
-      "compatibleModels": ["iQube S", "iQube ST", "iQube Electric"],
-      "category": "comfort",
-      "salePrice": 1199,
-      "wholesaleCost": 320,
-      "description": "Ergonomic Folding Side Footrest for Family Comfort",
-      "longDescription": "Premium side step footrest designed for the TVS iQube family scooter. Crucial safety accessory for pillion riders who sit sideways. Built from heavy-duty cast aluminium with anti-skid rubber padding.",
-      "images": [
-        "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=600&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1508962914676-134849a727f0?w=600&auto=format&fit=crop"
+      "compatibleModels": [
+        "iQube S",
+        "iQube ST",
+        "iQube Electric"
       ],
-      "stock": 70,
+      "category": "comfort",
+      "salePrice": 699,
+      "wholesaleCost": 200,
+      "description": "Ladies / Pillion Footrest (Heavy Duty SS) — Compatible with iQube S / iQube ST",
+      "longDescription": "Premium aftermarket replacement for iQube S, iQube ST, iQube Electric. Compatible with: iQube S / iQube ST. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1598153346810-860daa814c4b?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=600&auto=format&fit=crop"
+      ],
+      "stock": 28,
+      "rating": 4.3,
+      "reviewCount": 85,
+      "tags": [
+        "ladies",
+        "pillion",
+        "footrest",
+        "heavy",
+        "duty",
+        "comfort",
+        "tvs"
+      ],
+      "frequentlyBoughtWith": [
+        "tvs-9h_tempered_glass_screen_guard_6-i-0",
+        "tvs-nano_glass_speedometer_screen_guard-1"
+      ],
+      "isBestseller": false,
+      "isNew": false
+    },
+    {
+      "id": "tvs-ev_charger_safety_box_wall_mount-7",
+      "name": "EV Charger Safety Box Wall Mount + Lock",
+      "brand": "tvs",
+      "compatibleModels": [
+        "iQube S",
+        "iQube ST",
+        "iQube Electric"
+      ],
+      "category": "charger",
+      "salePrice": 599,
+      "wholesaleCost": 180,
+      "description": "EV Charger Safety Box Wall Mount + Lock — Compatible with iQube S all variants",
+      "longDescription": "Premium aftermarket replacement for iQube S, iQube ST, iQube Electric. Compatible with: iQube S all variants. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1527018601619-a508a2be00cd?w=600&auto=format&fit=crop"
+      ],
+      "stock": 25,
+      "rating": 3.9,
+      "reviewCount": 75,
+      "tags": [
+        "charger",
+        "safety",
+        "box",
+        "wall",
+        "mount",
+        "lock",
+        "tvs"
+      ],
+      "frequentlyBoughtWith": [
+        "tvs-9h_tempered_glass_screen_guard_6-i-0",
+        "tvs-nano_glass_speedometer_screen_guard-1"
+      ],
+      "isBestseller": false,
+      "isNew": false
+    },
+    {
+      "id": "tvs-mobile_holder_with_usb_charging_ha-11",
+      "name": "Mobile Holder with USB Charging (Handlebar)",
+      "brand": "tvs",
+      "compatibleModels": [
+        "iQube S",
+        "iQube ST",
+        "iQube Electric"
+      ],
+      "category": "utility",
+      "salePrice": 399,
+      "wholesaleCost": 110,
+      "description": "Mobile Holder with USB Charging (Handlebar) — Compatible with iQube all models",
+      "longDescription": "Premium aftermarket replacement for iQube S, iQube ST, iQube Electric. Compatible with: iQube all models. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop"
+      ],
+      "stock": 23,
+      "rating": 3.9,
+      "reviewCount": 70,
+      "tags": [
+        "mobile",
+        "holder",
+        "with",
+        "usb",
+        "charging",
+        "handlebar",
+        "utility",
+        "tvs"
+      ],
+      "frequentlyBoughtWith": [
+        "tvs-9h_tempered_glass_screen_guard_6-i-0",
+        "tvs-nano_glass_speedometer_screen_guard-1"
+      ],
+      "isBestseller": false,
+      "isNew": false
+    },
+    {
+      "id": "tvs-3d_anti-slip_floor_mat-9",
+      "name": "3D Anti-Slip Floor Mat",
+      "brand": "tvs",
+      "compatibleModels": [
+        "iQube S",
+        "iQube ST",
+        "iQube Electric"
+      ],
+      "category": "comfort",
+      "salePrice": 449,
+      "wholesaleCost": 130,
+      "description": "3D Anti-Slip Floor Mat — Compatible with iQube all models",
+      "longDescription": "Premium aftermarket replacement for iQube S, iQube ST, iQube Electric. Compatible with: iQube all models. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1598153346810-860daa814c4b?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=600&auto=format&fit=crop"
+      ],
+      "stock": 21,
+      "rating": 4.0,
+      "reviewCount": 65,
+      "tags": [
+        "anti-slip",
+        "floor",
+        "mat",
+        "comfort",
+        "tvs"
+      ],
+      "frequentlyBoughtWith": [
+        "tvs-9h_tempered_glass_screen_guard_6-i-0",
+        "tvs-nano_glass_speedometer_screen_guard-1"
+      ],
+      "isBestseller": false,
+      "isNew": false
+    },
+    {
+      "id": "tvs-full_body_waterproof_scooter_cover-12",
+      "name": "Full Body Waterproof Scooter Cover (UV+Dustproof)",
+      "brand": "tvs",
+      "compatibleModels": [
+        "iQube S",
+        "iQube ST",
+        "iQube Electric"
+      ],
+      "category": "covers",
+      "salePrice": 629,
+      "wholesaleCost": 190,
+      "description": "Full Body Waterproof Scooter Cover (UV+Dustproof) — Compatible with iQube S / ST / Electric",
+      "longDescription": "Premium aftermarket replacement for iQube S, iQube ST, iQube Electric. Compatible with: iQube S / ST / Electric. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1508962914676-134849a727f0?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1527018601619-a508a2be00cd?w=600&auto=format&fit=crop"
+      ],
+      "stock": 20,
+      "rating": 4.1,
+      "reviewCount": 60,
+      "tags": [
+        "full",
+        "body",
+        "waterproof",
+        "scooter",
+        "cover",
+        "dustproof",
+        "covers",
+        "tvs"
+      ],
+      "frequentlyBoughtWith": [
+        "tvs-9h_tempered_glass_screen_guard_6-i-0",
+        "tvs-nano_glass_speedometer_screen_guard-1"
+      ],
+      "isBestseller": false,
+      "isNew": false
+    },
+    {
+      "id": "tvs-padded_pillion_backrest-10",
+      "name": "Padded Pillion Backrest",
+      "brand": "tvs",
+      "compatibleModels": [
+        "iQube S",
+        "iQube ST",
+        "iQube Electric"
+      ],
+      "category": "comfort",
+      "salePrice": 799,
+      "wholesaleCost": 240,
+      "description": "Padded Pillion Backrest — Compatible with iQube S / ST",
+      "longDescription": "Premium aftermarket replacement for iQube S, iQube ST, iQube Electric. Compatible with: iQube S / ST. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1598153346810-860daa814c4b?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=600&auto=format&fit=crop"
+      ],
+      "stock": 18,
+      "rating": 4.2,
+      "reviewCount": 55,
+      "tags": [
+        "padded",
+        "pillion",
+        "backrest",
+        "comfort",
+        "tvs"
+      ],
+      "frequentlyBoughtWith": [
+        "tvs-9h_tempered_glass_screen_guard_6-i-0",
+        "tvs-nano_glass_speedometer_screen_guard-1"
+      ],
+      "isBestseller": false,
+      "isNew": false
+    },
+    {
+      "id": "tvs-helmet_lock_with_steel_cable-13",
+      "name": "Helmet Lock with Steel Cable",
+      "brand": "tvs",
+      "compatibleModels": [
+        "iQube S",
+        "iQube ST",
+        "iQube Electric"
+      ],
+      "category": "utility",
+      "salePrice": 249,
+      "wholesaleCost": 60,
+      "description": "Helmet Lock with Steel Cable — Compatible with iQube all models",
+      "longDescription": "Premium aftermarket replacement for iQube S, iQube ST, iQube Electric. Compatible with: iQube all models. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop"
+      ],
+      "stock": 18,
+      "rating": 3.8,
+      "reviewCount": 55,
+      "tags": [
+        "helmet",
+        "lock",
+        "with",
+        "steel",
+        "cable",
+        "utility",
+        "tvs"
+      ],
+      "frequentlyBoughtWith": [
+        "tvs-9h_tempered_glass_screen_guard_6-i-0",
+        "tvs-nano_glass_speedometer_screen_guard-1"
+      ],
+      "isBestseller": false,
+      "isNew": false
+    },
+    {
+      "id": "tvs-middle_guard__front_mudguard__rea-5",
+      "name": "Middle Guard + Front Mudguard + Rear Guard + Footrest",
+      "brand": "tvs",
+      "compatibleModels": [
+        "iQube S",
+        "iQube ST",
+        "iQube Electric"
+      ],
+      "category": "guards",
+      "salePrice": 3699,
+      "wholesaleCost": 1200,
+      "description": "Middle Guard + Front Mudguard + Rear Guard + Footrest — Compatible with iQube / iQube ST all models",
+      "longDescription": "Premium aftermarket replacement for iQube S, iQube ST, iQube Electric. Compatible with: iQube / iQube ST all models. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=600&auto=format&fit=crop"
+      ],
+      "stock": 10,
       "rating": 4.5,
-      "reviewCount": 312,
-      "tags": ["footrest", "ladies step", "iqube step", "pillion comfort"],
-      "frequentlyBoughtWith": ["tvs-floormat-combo"],
-      "isBestseller": true,
+      "reviewCount": 27,
+      "tags": [
+        "middle",
+        "guard",
+        "front",
+        "mudguard",
+        "rear",
+        "footrest",
+        "guards",
+        "tvs"
+      ],
+      "frequentlyBoughtWith": [
+        "tvs-9h_tempered_glass_screen_guard_6-i-0",
+        "tvs-nano_glass_speedometer_screen_guard-1"
+      ],
+      "isBestseller": false,
       "isNew": false
     },
     {
       "id": "tvs-floormat-combo",
       "name": "7D Floor Mat + Charging Cap Cover",
       "brand": "tvs",
-      "compatibleModels": ["iQube S", "iQube ST", "iQube Electric"],
-      "category": "comfort",
+      "compatibleModels": [
+        "iQube S",
+        "iQube ST",
+        "iQube Electric"
+      ],
+      "category": "combo",
       "salePrice": 499,
       "wholesaleCost": 160,
       "description": "Custom Fit 7D Anti-Skid Floor Mat with Protective Charging Cap",
@@ -150,74 +1433,718 @@
       "stock": 160,
       "rating": 4.4,
       "reviewCount": 218,
-      "tags": ["floor mat", "charging cap", "combo pack", "rubber mat"],
-      "frequentlyBoughtWith": ["tvs-footrest"],
-      "isBestseller": false,
-      "isNew": false
-    },
-    {
-      "id": "ather-seat-cover",
-      "name": "Premium Seat Cover + Boot Mat",
-      "brand": "ather",
-      "compatibleModels": ["450X", "450S", "Rizta"],
-      "category": "comfort",
-      "salePrice": 599,
-      "wholesaleCost": 190,
-      "description": "Ergonomic Sporty Stitched Seat Cover and Matching Rubber Boot Mat",
-      "longDescription": "Add premium comfort styling to your Ather. Features a customized high-density double-stitched leatherette seat cover paired with a custom-fit rubber boot mat to protect the underseat storage space.",
-      "images": [
-        "https://images.unsplash.com/photo-1598153346810-860daa814c4b?w=600&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1508962914676-134849a727f0?w=600&auto=format&fit=crop"
+      "tags": [
+        "floor mat",
+        "charging cap",
+        "combo pack",
+        "rubber mat",
+        "combo",
+        "tvs"
       ],
-      "stock": 85,
-      "rating": 4.6,
-      "reviewCount": 182,
-      "tags": ["seat cover", "boot mat", "leatherette", "ather comfort"],
-      "frequentlyBoughtWith": ["ather-screen-guard"],
+      "frequentlyBoughtWith": [
+        "tvs-footrest"
+      ],
       "isBestseller": true,
       "isNew": false
     },
     {
       "id": "ather-screen-guard",
-      "name": "Ather Display Protector (9H Nano)",
+      "name": "TFT Screen Guard (9H Full Cover) – 450X / 450S",
       "brand": "ather",
-      "compatibleModels": ["450X", "450S", "Rizta"],
-      "category": "protection",
-      "salePrice": 249,
-      "wholesaleCost": 35,
-      "description": "9H Flexible Nano-Glass Shield for Ather Console",
-      "longDescription": "Avoid the heavy ₹15,000+ replacement cost of a cracked Ather smart console. 9H flexible nano-glass protection is shatter-proof, scratch-resistant, and maintains original touch response.",
-      "images": [
-        "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop"
+      "compatibleModels": [
+        "450X",
+        "450S",
+        "Rizta"
       ],
-      "stock": 290,
-      "rating": 4.7,
-      "reviewCount": 420,
-      "tags": ["display protector", "nano glass", "touchscreen", "screen guard"],
-      "frequentlyBoughtWith": ["ather-seat-cover"],
+      "category": "protection",
+      "salePrice": 199,
+      "wholesaleCost": 35,
+      "description": "TFT Screen Guard (9H Full Cover) – 450X / 450S — Compatible with 450X / 450S / 450 Apex",
+      "longDescription": "Premium aftermarket replacement for 450X, 450S, Rizta. Compatible with: 450X / 450S / 450 Apex. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&auto=format&fit=crop"
+      ],
+      "stock": 93,
+      "rating": 4.3,
+      "reviewCount": 280,
+      "tags": [
+        "tft",
+        "screen",
+        "guard",
+        "full",
+        "cover",
+        "450x",
+        "450s",
+        "protection"
+      ],
+      "frequentlyBoughtWith": [
+        "ather-front_&_rear_crash_guard__foldable-3",
+        "ather-stainless_steel_safety_guard_kit_m-4"
+      ],
+      "isBestseller": true,
+      "isNew": false
+    },
+    {
+      "id": "ather-screen_protector_2-pack_–_gen_3_20-1",
+      "name": "Screen Protector 2-Pack – Gen 3 (2022–2025)",
+      "brand": "ather",
+      "compatibleModels": [
+        "450X",
+        "450S",
+        "Rizta"
+      ],
+      "category": "protection",
+      "salePrice": 159,
+      "wholesaleCost": 30,
+      "description": "Screen Protector 2-Pack – Gen 3 (2022–2025) — Compatible with 450X Gen 3 / 450S",
+      "longDescription": "Premium aftermarket replacement for 450X, 450S, Rizta. Compatible with: 450X Gen 3 / 450S. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&auto=format&fit=crop"
+      ],
+      "stock": 70,
+      "rating": 4.1,
+      "reviewCount": 210,
+      "tags": [
+        "screen",
+        "protector",
+        "2-pack",
+        "gen",
+        "2022",
+        "2025",
+        "protection",
+        "ather"
+      ],
+      "frequentlyBoughtWith": [
+        "ather-front_&_rear_crash_guard__foldable-3",
+        "ather-stainless_steel_safety_guard_kit_m-4"
+      ],
+      "isBestseller": true,
+      "isNew": false
+    },
+    {
+      "id": "ather-3d_anti-slip_floor_mat-7",
+      "name": "3D Anti-Slip Floor Mat",
+      "brand": "ather",
+      "compatibleModels": [
+        "450X",
+        "450S",
+        "Rizta"
+      ],
+      "category": "comfort",
+      "salePrice": 399,
+      "wholesaleCost": 110,
+      "description": "3D Anti-Slip Floor Mat — Compatible with 450X / 450S / Rizta",
+      "longDescription": "Premium aftermarket replacement for 450X, 450S, Rizta. Compatible with: 450X / 450S / Rizta. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1598153346810-860daa814c4b?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=600&auto=format&fit=crop"
+      ],
+      "stock": 58,
+      "rating": 4.0,
+      "reviewCount": 175,
+      "tags": [
+        "anti-slip",
+        "floor",
+        "mat",
+        "comfort",
+        "ather"
+      ],
+      "frequentlyBoughtWith": [
+        "ather-screen-guard",
+        "ather-screen_protector_2-pack_–_gen_3_20-1"
+      ],
+      "isBestseller": true,
+      "isNew": false
+    },
+    {
+      "id": "ather-screen_guard_for_ather_rizta_7-inc-2",
+      "name": "Screen Guard for Ather Rizta (7-inch TFT)",
+      "brand": "ather",
+      "compatibleModels": [
+        "450X",
+        "450S",
+        "Rizta"
+      ],
+      "category": "protection",
+      "salePrice": 149,
+      "wholesaleCost": 28,
+      "description": "Screen Guard for Ather Rizta (7-inch TFT) — Compatible with Rizta S / Rizta Z",
+      "longDescription": "Premium aftermarket replacement for 450X, 450S, Rizta. Compatible with: Rizta S / Rizta Z. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&auto=format&fit=crop"
+      ],
+      "stock": 50,
+      "rating": 4.0,
+      "reviewCount": 150,
+      "tags": [
+        "screen",
+        "guard",
+        "for",
+        "ather",
+        "rizta",
+        "7-inch",
+        "tft",
+        "protection"
+      ],
+      "frequentlyBoughtWith": [
+        "ather-front_&_rear_crash_guard__foldable-3",
+        "ather-stainless_steel_safety_guard_kit_m-4"
+      ],
+      "isBestseller": true,
+      "isNew": true
+    },
+    {
+      "id": "ather-seat-cover",
+      "name": "Premium Seat Cover + Boot Mat",
+      "brand": "ather",
+      "compatibleModels": [
+        "450X",
+        "450S",
+        "Rizta"
+      ],
+      "category": "comfort",
+      "salePrice": 599,
+      "wholesaleCost": 190,
+      "description": "Premium Seat Cover + Boot Mat — Compatible with 450X / 450S / 450 Apex",
+      "longDescription": "Premium aftermarket replacement for 450X, 450S, Rizta. Compatible with: 450X / 450S / 450 Apex. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1598153346810-860daa814c4b?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=600&auto=format&fit=crop"
+      ],
+      "stock": 60,
+      "rating": 4.1,
+      "reviewCount": 182,
+      "tags": [
+        "premium",
+        "seat",
+        "cover",
+        "boot",
+        "mat",
+        "comfort",
+        "ather"
+      ],
+      "frequentlyBoughtWith": [
+        "ather-screen-guard",
+        "ather-screen_protector_2-pack_–_gen_3_20-1"
+      ],
+      "isBestseller": false,
+      "isNew": false
+    },
+    {
+      "id": "ather-front_&_rear_crash_guard__foldable-3",
+      "name": "Front & Rear Crash Guard + Foldable Footrest",
+      "brand": "ather",
+      "compatibleModels": [
+        "450X",
+        "450S",
+        "Rizta"
+      ],
+      "category": "guards",
+      "salePrice": 1899,
+      "wholesaleCost": 600,
+      "description": "Front & Rear Crash Guard + Foldable Footrest — Compatible with 450X / 450S / 450 Apex",
+      "longDescription": "Premium aftermarket replacement for 450X, 450S, Rizta. Compatible with: 450X / 450S / 450 Apex. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=600&auto=format&fit=crop"
+      ],
+      "stock": 48,
+      "rating": 4.2,
+      "reviewCount": 145,
+      "tags": [
+        "front",
+        "rear",
+        "crash",
+        "guard",
+        "foldable",
+        "footrest",
+        "guards",
+        "ather"
+      ],
+      "frequentlyBoughtWith": [
+        "ather-screen-guard",
+        "ather-screen_protector_2-pack_–_gen_3_20-1"
+      ],
+      "isBestseller": false,
+      "isNew": false
+    },
+    {
+      "id": "ather-ladies__pillion_footrest_iron_rod-8",
+      "name": "Ladies / Pillion Footrest (Iron Rod Heavy Duty)",
+      "brand": "ather",
+      "compatibleModels": [
+        "450X",
+        "450S",
+        "Rizta"
+      ],
+      "category": "comfort",
+      "salePrice": 699,
+      "wholesaleCost": 200,
+      "description": "Ladies / Pillion Footrest (Iron Rod Heavy Duty) — Compatible with 450X / 450S / Rizta",
+      "longDescription": "Premium aftermarket replacement for 450X, 450S, Rizta. Compatible with: 450X / 450S / Rizta. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1598153346810-860daa814c4b?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=600&auto=format&fit=crop"
+      ],
+      "stock": 31,
+      "rating": 4.1,
+      "reviewCount": 95,
+      "tags": [
+        "ladies",
+        "pillion",
+        "footrest",
+        "iron",
+        "rod",
+        "heavy",
+        "duty",
+        "comfort"
+      ],
+      "frequentlyBoughtWith": [
+        "ather-screen-guard",
+        "ather-screen_protector_2-pack_–_gen_3_20-1"
+      ],
+      "isBestseller": false,
+      "isNew": false
+    },
+    {
+      "id": "ather-rizta_crash_guard__foldable_footre-5",
+      "name": "Rizta Crash Guard + Foldable Footrest Combo",
+      "brand": "ather",
+      "compatibleModels": [
+        "450X",
+        "450S",
+        "Rizta"
+      ],
+      "category": "guards",
+      "salePrice": 1499,
+      "wholesaleCost": 480,
+      "description": "Rizta Crash Guard + Foldable Footrest Combo — Compatible with Ather Rizta S / Rizta Z",
+      "longDescription": "Premium aftermarket replacement for 450X, 450S, Rizta. Compatible with: Ather Rizta S / Rizta Z. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=600&auto=format&fit=crop"
+      ],
+      "stock": 26,
+      "rating": 4.2,
+      "reviewCount": 80,
+      "tags": [
+        "rizta",
+        "crash",
+        "guard",
+        "foldable",
+        "footrest",
+        "combo",
+        "guards",
+        "ather"
+      ],
+      "frequentlyBoughtWith": [
+        "ather-screen-guard",
+        "ather-screen_protector_2-pack_–_gen_3_20-1"
+      ],
       "isBestseller": false,
       "isNew": true
+    },
+    {
+      "id": "ather-padded_pillion_backrest-9",
+      "name": "Padded Pillion Backrest",
+      "brand": "ather",
+      "compatibleModels": [
+        "450X",
+        "450S",
+        "Rizta"
+      ],
+      "category": "comfort",
+      "salePrice": 799,
+      "wholesaleCost": 240,
+      "description": "Padded Pillion Backrest — Compatible with 450X / 450S / Rizta",
+      "longDescription": "Premium aftermarket replacement for 450X, 450S, Rizta. Compatible with: 450X / 450S / Rizta. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1598153346810-860daa814c4b?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=600&auto=format&fit=crop"
+      ],
+      "stock": 26,
+      "rating": 4.0,
+      "reviewCount": 80,
+      "tags": [
+        "padded",
+        "pillion",
+        "backrest",
+        "comfort",
+        "ather"
+      ],
+      "frequentlyBoughtWith": [
+        "ather-screen-guard",
+        "ather-screen_protector_2-pack_–_gen_3_20-1"
+      ],
+      "isBestseller": false,
+      "isNew": false
+    },
+    {
+      "id": "ather-mobile_holder_with_usb_charging_ha-12",
+      "name": "Mobile Holder with USB Charging (Handlebar)",
+      "brand": "ather",
+      "compatibleModels": [
+        "450X",
+        "450S",
+        "Rizta"
+      ],
+      "category": "utility",
+      "salePrice": 399,
+      "wholesaleCost": 110,
+      "description": "Mobile Holder with USB Charging (Handlebar) — Compatible with 450X / Rizta all models",
+      "longDescription": "Premium aftermarket replacement for 450X, 450S, Rizta. Compatible with: 450X / Rizta all models. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop"
+      ],
+      "stock": 25,
+      "rating": 3.9,
+      "reviewCount": 75,
+      "tags": [
+        "mobile",
+        "holder",
+        "with",
+        "usb",
+        "charging",
+        "handlebar",
+        "utility",
+        "ather"
+      ],
+      "frequentlyBoughtWith": [
+        "ather-screen-guard",
+        "ather-screen_protector_2-pack_–_gen_3_20-1"
+      ],
+      "isBestseller": false,
+      "isNew": false
+    },
+    {
+      "id": "ather-handle_bar_anti-slip_grip_cover-10",
+      "name": "Handle Bar Anti-Slip Grip Cover",
+      "brand": "ather",
+      "compatibleModels": [
+        "450X",
+        "450S",
+        "Rizta"
+      ],
+      "category": "comfort",
+      "salePrice": 249,
+      "wholesaleCost": 60,
+      "description": "Handle Bar Anti-Slip Grip Cover — Compatible with Rizta / 450X / 450S",
+      "longDescription": "Premium aftermarket replacement for 450X, 450S, Rizta. Compatible with: Rizta / 450X / 450S. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1598153346810-860daa814c4b?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=600&auto=format&fit=crop"
+      ],
+      "stock": 21,
+      "rating": 3.9,
+      "reviewCount": 65,
+      "tags": [
+        "handle",
+        "bar",
+        "anti-slip",
+        "grip",
+        "cover",
+        "comfort",
+        "ather"
+      ],
+      "frequentlyBoughtWith": [
+        "ather-screen-guard",
+        "ather-screen_protector_2-pack_–_gen_3_20-1"
+      ],
+      "isBestseller": false,
+      "isNew": true
+    },
+    {
+      "id": "ather-full_body_waterproof_scooter_cover-11",
+      "name": "Full Body Waterproof Scooter Cover",
+      "brand": "ather",
+      "compatibleModels": [
+        "450X",
+        "450S",
+        "Rizta"
+      ],
+      "category": "covers",
+      "salePrice": 629,
+      "wholesaleCost": 190,
+      "description": "Full Body Waterproof Scooter Cover — Compatible with Ather 450X / Rizta all models",
+      "longDescription": "Premium aftermarket replacement for 450X, 450S, Rizta. Compatible with: Ather 450X / Rizta all models. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1508962914676-134849a727f0?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1527018601619-a508a2be00cd?w=600&auto=format&fit=crop"
+      ],
+      "stock": 18,
+      "rating": 4.1,
+      "reviewCount": 55,
+      "tags": [
+        "full",
+        "body",
+        "waterproof",
+        "scooter",
+        "cover",
+        "covers",
+        "ather"
+      ],
+      "frequentlyBoughtWith": [
+        "ather-screen-guard",
+        "ather-screen_protector_2-pack_–_gen_3_20-1"
+      ],
+      "isBestseller": false,
+      "isNew": false
+    },
+    {
+      "id": "ather-side_stand_anti-sink_plate-13",
+      "name": "Side Stand Anti-Sink Plate",
+      "brand": "ather",
+      "compatibleModels": [
+        "450X",
+        "450S",
+        "Rizta"
+      ],
+      "category": "utility",
+      "salePrice": 249,
+      "wholesaleCost": 60,
+      "description": "Side Stand Anti-Sink Plate — Compatible with Rizta / 450X all models",
+      "longDescription": "Premium aftermarket replacement for 450X, 450S, Rizta. Compatible with: Rizta / 450X all models. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop"
+      ],
+      "stock": 16,
+      "rating": 4.0,
+      "reviewCount": 50,
+      "tags": [
+        "side",
+        "stand",
+        "anti-sink",
+        "plate",
+        "utility",
+        "ather"
+      ],
+      "frequentlyBoughtWith": [
+        "ather-screen-guard",
+        "ather-screen_protector_2-pack_–_gen_3_20-1"
+      ],
+      "isBestseller": false,
+      "isNew": true
+    },
+    {
+      "id": "ather-4-in-1_combo_kit_footrest_floor_ma-14",
+      "name": "4-in-1 Combo Kit (Footrest+Floor Mat+Seat Cover+Screen Guard)",
+      "brand": "ather",
+      "compatibleModels": [
+        "450X",
+        "450S",
+        "Rizta"
+      ],
+      "category": "combo",
+      "salePrice": 4499,
+      "wholesaleCost": 1400,
+      "description": "4-in-1 Combo Kit (Footrest+Floor Mat+Seat Cover+Screen Guard) — Compatible with Ather Rizta S / Rizta Z",
+      "longDescription": "Premium aftermarket replacement for 450X, 450S, Rizta. Compatible with: Ather Rizta S / Rizta Z. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1607603750909-408e19385117?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1527018601619-a508a2be00cd?w=600&auto=format&fit=crop"
+      ],
+      "stock": 10,
+      "rating": 4.5,
+      "reviewCount": 30,
+      "tags": [
+        "4-in-1",
+        "combo",
+        "kit",
+        "footrest",
+        "floor",
+        "mat",
+        "seat",
+        "cover"
+      ],
+      "frequentlyBoughtWith": [
+        "ather-screen-guard",
+        "ather-screen_protector_2-pack_–_gen_3_20-1"
+      ],
+      "isBestseller": false,
+      "isNew": true
+    },
+    {
+      "id": "ather-stainless_steel_safety_guard_kit_m-4",
+      "name": "Stainless Steel Safety Guard Kit (Middle+Front+Rear+Footrest)",
+      "brand": "ather",
+      "compatibleModels": [
+        "450X",
+        "450S",
+        "Rizta"
+      ],
+      "category": "guards",
+      "salePrice": 3899,
+      "wholesaleCost": 1300,
+      "description": "Stainless Steel Safety Guard Kit (Middle+Front+Rear+Footrest) — Compatible with Ather 450X / 450S all gen",
+      "longDescription": "Premium aftermarket replacement for 450X, 450S, Rizta. Compatible with: Ather 450X / 450S all gen. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=600&auto=format&fit=crop"
+      ],
+      "stock": 10,
+      "rating": 4.9,
+      "reviewCount": 10,
+      "tags": [
+        "stainless",
+        "steel",
+        "safety",
+        "guard",
+        "kit",
+        "middle",
+        "front",
+        "rear"
+      ],
+      "frequentlyBoughtWith": [
+        "ather-screen-guard",
+        "ather-screen_protector_2-pack_–_gen_3_20-1"
+      ],
+      "isBestseller": false,
+      "isNew": false
+    },
+    {
+      "id": "bajaj-genuine_leather_keychain_chetak_lo-6",
+      "name": "Genuine Leather Keychain (Chetak Logo)",
+      "brand": "bajaj",
+      "compatibleModels": [
+        "Urbane",
+        "Premium"
+      ],
+      "category": "utility",
+      "salePrice": 199,
+      "wholesaleCost": 40,
+      "description": "Genuine Leather Keychain (Chetak Logo) — Compatible with All Chetak models",
+      "longDescription": "Premium aftermarket replacement for Urbane, Premium. Compatible with: All Chetak models. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop"
+      ],
+      "stock": 83,
+      "rating": 4.2,
+      "reviewCount": 250,
+      "tags": [
+        "genuine",
+        "leather",
+        "keychain",
+        "chetak",
+        "logo",
+        "utility",
+        "bajaj"
+      ],
+      "frequentlyBoughtWith": [
+        "bajaj-9h_speedometer_screen_guard_cluste-0",
+        "bajaj-full_tft_screen_protector_anti-scr-1"
+      ],
+      "isBestseller": true,
+      "isNew": false
+    },
+    {
+      "id": "bajaj-9h_speedometer_screen_guard_cluste-0",
+      "name": "9H Speedometer Screen Guard (Cluster Protector)",
+      "brand": "bajaj",
+      "compatibleModels": [
+        "Urbane",
+        "Premium"
+      ],
+      "category": "protection",
+      "salePrice": 159,
+      "wholesaleCost": 30,
+      "description": "9H Speedometer Screen Guard (Cluster Protector) — Compatible with Chetak 2903 / 3001 / 3501 / 3502 all",
+      "longDescription": "Premium aftermarket replacement for Urbane, Premium. Compatible with: Chetak 2903 / 3001 / 3501 / 3502 all. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&auto=format&fit=crop"
+      ],
+      "stock": 60,
+      "rating": 4.1,
+      "reviewCount": 180,
+      "tags": [
+        "speedometer",
+        "screen",
+        "guard",
+        "cluster",
+        "protector",
+        "protection",
+        "bajaj"
+      ],
+      "frequentlyBoughtWith": [
+        "bajaj-steel_safety_guard_full_set_2025-2",
+        "bajaj-black_safety_guard_kit_middle_fron-3"
+      ],
+      "isBestseller": true,
+      "isNew": false
     },
     {
       "id": "bajaj-crash-guard",
       "name": "Full-Body Stainless Steel Guard",
       "brand": "bajaj",
-      "compatibleModels": ["Urbane", "Premium"],
+      "compatibleModels": [
+        "Urbane",
+        "Premium"
+      ],
       "category": "guards",
       "salePrice": 3499,
       "wholesaleCost": 1400,
-      "description": "Rust-Free Full Wrap Stainless Steel Protection Bumper Set",
-      "longDescription": "Since the Bajaj Chetak is made of premium metal/iron sheet body panels, getting scratches leads to high denting and painting costs. Protect your scooter from dents with this stylish stainless steel guard kit.",
+      "description": "Full-Body Stainless Steel Guard — Compatible with Chetak Urbane / Premium",
+      "longDescription": "Premium aftermarket replacement for Urbane, Premium. Compatible with: Chetak Urbane / Premium. Trusted by thousands of EV owners across India.",
       "images": [
-        "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=600&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=600&auto=format&fit=crop"
+        "https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=600&auto=format&fit=crop"
       ],
-      "stock": 38,
+      "stock": 47,
       "rating": 4.8,
       "reviewCount": 142,
-      "tags": ["stainless steel", "crash guard", "chetak metal", "protection frame"],
-      "frequentlyBoughtWith": ["bajaj-footrest"],
+      "tags": [
+        "full-body",
+        "stainless",
+        "steel",
+        "guard",
+        "guards",
+        "bajaj"
+      ],
+      "frequentlyBoughtWith": [
+        "bajaj-9h_speedometer_screen_guard_cluste-0",
+        "bajaj-full_tft_screen_protector_anti-scr-1"
+      ],
+      "isBestseller": true,
+      "isNew": false
+    },
+    {
+      "id": "bajaj-number_plate_frame_ss_chrome-14",
+      "name": "Number Plate Frame (SS Chrome)",
+      "brand": "bajaj",
+      "compatibleModels": [
+        "Urbane",
+        "Premium"
+      ],
+      "category": "utility",
+      "salePrice": 199,
+      "wholesaleCost": 45,
+      "description": "Number Plate Frame (SS Chrome) — Compatible with All Chetak models",
+      "longDescription": "Premium aftermarket replacement for Urbane, Premium. Compatible with: All Chetak models. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop"
+      ],
+      "stock": 40,
+      "rating": 4.1,
+      "reviewCount": 120,
+      "tags": [
+        "number",
+        "plate",
+        "frame",
+        "chrome",
+        "utility",
+        "bajaj"
+      ],
+      "frequentlyBoughtWith": [
+        "bajaj-9h_speedometer_screen_guard_cluste-0",
+        "bajaj-full_tft_screen_protector_anti-scr-1"
+      ],
       "isBestseller": true,
       "isNew": false
     },
@@ -225,23 +2152,1281 @@
       "id": "bajaj-footrest",
       "name": "Chetak Integrated Ladies Step",
       "brand": "bajaj",
-      "compatibleModels": ["Urbane", "Premium"],
+      "compatibleModels": [
+        "Urbane",
+        "Premium"
+      ],
       "category": "comfort",
       "salePrice": 1099,
       "wholesaleCost": 280,
-      "description": "Custom Fit Heavy Duty Folding Step Footrest",
-      "longDescription": "The Bajaj Chetak does not come with a side pillion step-assist footrest in-built from the factory. This hot-selling aftermarket component solves that, folding out smoothly and locking for family passenger safety.",
+      "description": "Chetak Integrated Ladies Step — Compatible with Chetak Urbane / Premium",
+      "longDescription": "Premium aftermarket replacement for Urbane, Premium. Compatible with: Chetak Urbane / Premium. Trusted by thousands of EV owners across India.",
       "images": [
-        "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=600&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1508962914676-134849a727f0?w=600&auto=format&fit=crop"
+        "https://images.unsplash.com/photo-1598153346810-860daa814c4b?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=600&auto=format&fit=crop"
       ],
-      "stock": 80,
+      "stock": 39,
       "rating": 4.5,
       "reviewCount": 118,
-      "tags": ["footrest", "ladies step", "folding footrest", "chetak side step"],
-      "frequentlyBoughtWith": ["bajaj-crash-guard"],
+      "tags": [
+        "chetak",
+        "integrated",
+        "ladies",
+        "step",
+        "comfort",
+        "bajaj"
+      ],
+      "frequentlyBoughtWith": [
+        "bajaj-9h_speedometer_screen_guard_cluste-0",
+        "bajaj-full_tft_screen_protector_anti-scr-1"
+      ],
       "isBestseller": false,
       "isNew": false
+    },
+    {
+      "id": "bajaj-full_tft_screen_protector_anti-scr-1",
+      "name": "Full TFT Screen Protector (Anti-Scratch, HD Clear)",
+      "brand": "bajaj",
+      "compatibleModels": [
+        "Urbane",
+        "Premium"
+      ],
+      "category": "protection",
+      "salePrice": 149,
+      "wholesaleCost": 28,
+      "description": "Full TFT Screen Protector (Anti-Scratch, HD Clear) — Compatible with Chetak Electric all 2023–2025",
+      "longDescription": "Premium aftermarket replacement for Urbane, Premium. Compatible with: Chetak Electric all 2023–2025. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&auto=format&fit=crop"
+      ],
+      "stock": 31,
+      "rating": 3.9,
+      "reviewCount": 95,
+      "tags": [
+        "full",
+        "tft",
+        "screen",
+        "protector",
+        "anti-scratch,",
+        "clear",
+        "protection",
+        "bajaj"
+      ],
+      "frequentlyBoughtWith": [
+        "bajaj-steel_safety_guard_full_set_2025-2",
+        "bajaj-black_safety_guard_kit_middle_fron-3"
+      ],
+      "isBestseller": false,
+      "isNew": false
+    },
+    {
+      "id": "bajaj-premium_seat_cover_waterproof_cush-7",
+      "name": "Premium Seat Cover (Waterproof Cushioned)",
+      "brand": "bajaj",
+      "compatibleModels": [
+        "Urbane",
+        "Premium"
+      ],
+      "category": "comfort",
+      "salePrice": 599,
+      "wholesaleCost": 190,
+      "description": "Premium Seat Cover (Waterproof Cushioned) — Compatible with Chetak Electric all models",
+      "longDescription": "Premium aftermarket replacement for Urbane, Premium. Compatible with: Chetak Electric all models. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1598153346810-860daa814c4b?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=600&auto=format&fit=crop"
+      ],
+      "stock": 30,
+      "rating": 4.1,
+      "reviewCount": 90,
+      "tags": [
+        "premium",
+        "seat",
+        "cover",
+        "waterproof",
+        "cushioned",
+        "comfort",
+        "bajaj"
+      ],
+      "frequentlyBoughtWith": [
+        "bajaj-9h_speedometer_screen_guard_cluste-0",
+        "bajaj-full_tft_screen_protector_anti-scr-1"
+      ],
+      "isBestseller": false,
+      "isNew": false
+    },
+    {
+      "id": "bajaj-stainless_steel_foldable_footrest-5",
+      "name": "Stainless Steel Foldable Footrest (Standalone)",
+      "brand": "bajaj",
+      "compatibleModels": [
+        "Urbane",
+        "Premium"
+      ],
+      "category": "comfort",
+      "salePrice": 699,
+      "wholesaleCost": 200,
+      "description": "Stainless Steel Foldable Footrest (Standalone) — Compatible with Chetak Electric all models",
+      "longDescription": "Premium aftermarket replacement for Urbane, Premium. Compatible with: Chetak Electric all models. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1598153346810-860daa814c4b?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=600&auto=format&fit=crop"
+      ],
+      "stock": 26,
+      "rating": 4.2,
+      "reviewCount": 80,
+      "tags": [
+        "stainless",
+        "steel",
+        "foldable",
+        "footrest",
+        "standalone",
+        "comfort",
+        "bajaj"
+      ],
+      "frequentlyBoughtWith": [
+        "bajaj-9h_speedometer_screen_guard_cluste-0",
+        "bajaj-full_tft_screen_protector_anti-scr-1"
+      ],
+      "isBestseller": false,
+      "isNew": false
+    },
+    {
+      "id": "bajaj-full_body_waterproof_scooter_cover-12",
+      "name": "Full Body Waterproof Scooter Cover",
+      "brand": "bajaj",
+      "compatibleModels": [
+        "Urbane",
+        "Premium"
+      ],
+      "category": "covers",
+      "salePrice": 629,
+      "wholesaleCost": 190,
+      "description": "Full Body Waterproof Scooter Cover — Compatible with Chetak Electric all models",
+      "longDescription": "Premium aftermarket replacement for Urbane, Premium. Compatible with: Chetak Electric all models. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1508962914676-134849a727f0?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1527018601619-a508a2be00cd?w=600&auto=format&fit=crop"
+      ],
+      "stock": 23,
+      "rating": 4.1,
+      "reviewCount": 70,
+      "tags": [
+        "full",
+        "body",
+        "waterproof",
+        "scooter",
+        "cover",
+        "covers",
+        "bajaj"
+      ],
+      "frequentlyBoughtWith": [
+        "bajaj-9h_speedometer_screen_guard_cluste-0",
+        "bajaj-full_tft_screen_protector_anti-scr-1"
+      ],
+      "isBestseller": false,
+      "isNew": false
+    },
+    {
+      "id": "bajaj-7d_anti-slip_floor_mat_water-resis-8",
+      "name": "7D Anti-Slip Floor Mat (Water-Resistant)",
+      "brand": "bajaj",
+      "compatibleModels": [
+        "Urbane",
+        "Premium"
+      ],
+      "category": "comfort",
+      "salePrice": 449,
+      "wholesaleCost": 130,
+      "description": "7D Anti-Slip Floor Mat (Water-Resistant) — Compatible with Chetak Electric all models",
+      "longDescription": "Premium aftermarket replacement for Urbane, Premium. Compatible with: Chetak Electric all models. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1598153346810-860daa814c4b?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=600&auto=format&fit=crop"
+      ],
+      "stock": 21,
+      "rating": 4.0,
+      "reviewCount": 65,
+      "tags": [
+        "anti-slip",
+        "floor",
+        "mat",
+        "water-resistant",
+        "comfort",
+        "bajaj"
+      ],
+      "frequentlyBoughtWith": [
+        "bajaj-9h_speedometer_screen_guard_cluste-0",
+        "bajaj-full_tft_screen_protector_anti-scr-1"
+      ],
+      "isBestseller": false,
+      "isNew": false
+    },
+    {
+      "id": "bajaj-padded_pillion_backrest-10",
+      "name": "Padded Pillion Backrest",
+      "brand": "bajaj",
+      "compatibleModels": [
+        "Urbane",
+        "Premium"
+      ],
+      "category": "comfort",
+      "salePrice": 799,
+      "wholesaleCost": 240,
+      "description": "Padded Pillion Backrest — Compatible with Chetak Electric all models",
+      "longDescription": "Premium aftermarket replacement for Urbane, Premium. Compatible with: Chetak Electric all models. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1598153346810-860daa814c4b?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=600&auto=format&fit=crop"
+      ],
+      "stock": 18,
+      "rating": 4.1,
+      "reviewCount": 55,
+      "tags": [
+        "padded",
+        "pillion",
+        "backrest",
+        "comfort",
+        "bajaj"
+      ],
+      "frequentlyBoughtWith": [
+        "bajaj-9h_speedometer_screen_guard_cluste-0",
+        "bajaj-full_tft_screen_protector_anti-scr-1"
+      ],
+      "isBestseller": false,
+      "isNew": false
+    },
+    {
+      "id": "bajaj-chrome_styling_kit_mirror__badge-13",
+      "name": "Chrome Styling Kit (Mirror + Badge Trim)",
+      "brand": "bajaj",
+      "compatibleModels": [
+        "Urbane",
+        "Premium"
+      ],
+      "category": "utility",
+      "salePrice": 499,
+      "wholesaleCost": 130,
+      "description": "Chrome Styling Kit (Mirror + Badge Trim) — Compatible with All Chetak models",
+      "longDescription": "Premium aftermarket replacement for Urbane, Premium. Compatible with: All Chetak models. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop"
+      ],
+      "stock": 13,
+      "rating": 3.8,
+      "reviewCount": 40,
+      "tags": [
+        "chrome",
+        "styling",
+        "kit",
+        "mirror",
+        "badge",
+        "trim",
+        "utility",
+        "bajaj"
+      ],
+      "frequentlyBoughtWith": [
+        "bajaj-9h_speedometer_screen_guard_cluste-0",
+        "bajaj-full_tft_screen_protector_anti-scr-1"
+      ],
+      "isBestseller": false,
+      "isNew": false
+    },
+    {
+      "id": "bajaj-front_luggage_bag__handlebar_bag-11",
+      "name": "Front Luggage Bag / Handlebar Bag",
+      "brand": "bajaj",
+      "compatibleModels": [
+        "Urbane",
+        "Premium"
+      ],
+      "category": "comfort",
+      "salePrice": 799,
+      "wholesaleCost": 240,
+      "description": "Front Luggage Bag / Handlebar Bag — Compatible with Chetak Electric all models",
+      "longDescription": "Premium aftermarket replacement for Urbane, Premium. Compatible with: Chetak Electric all models. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1598153346810-860daa814c4b?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=600&auto=format&fit=crop"
+      ],
+      "stock": 11,
+      "rating": 3.9,
+      "reviewCount": 35,
+      "tags": [
+        "front",
+        "luggage",
+        "bag",
+        "handlebar",
+        "comfort",
+        "bajaj"
+      ],
+      "frequentlyBoughtWith": [
+        "bajaj-9h_speedometer_screen_guard_cluste-0",
+        "bajaj-full_tft_screen_protector_anti-scr-1"
+      ],
+      "isBestseller": false,
+      "isNew": false
+    },
+    {
+      "id": "bajaj-black_safety_guard_kit_middle_fron-3",
+      "name": "Black Safety Guard Kit (Middle+Front+Rear+Footrest)",
+      "brand": "bajaj",
+      "compatibleModels": [
+        "Urbane",
+        "Premium"
+      ],
+      "category": "guards",
+      "salePrice": 3699,
+      "wholesaleCost": 1200,
+      "description": "Black Safety Guard Kit (Middle+Front+Rear+Footrest) — Compatible with Chetak 2903 / 3001 / 3501 / 3502",
+      "longDescription": "Premium aftermarket replacement for Urbane, Premium. Compatible with: Chetak 2903 / 3001 / 3501 / 3502. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=600&auto=format&fit=crop"
+      ],
+      "stock": 10,
+      "rating": 4.5,
+      "reviewCount": 27,
+      "tags": [
+        "black",
+        "safety",
+        "guard",
+        "kit",
+        "middle",
+        "front",
+        "rear",
+        "footrest"
+      ],
+      "frequentlyBoughtWith": [
+        "bajaj-9h_speedometer_screen_guard_cluste-0",
+        "bajaj-full_tft_screen_protector_anti-scr-1"
+      ],
+      "isBestseller": false,
+      "isNew": false
+    },
+    {
+      "id": "bajaj-steel_safety_guard_full_set_2025-2",
+      "name": "Steel Safety Guard Full Set 2025 + Free Floor Mat + Footrest",
+      "brand": "bajaj",
+      "compatibleModels": [
+        "Urbane",
+        "Premium"
+      ],
+      "category": "guards",
+      "salePrice": 3899,
+      "wholesaleCost": 1300,
+      "description": "Steel Safety Guard Full Set 2025 + Free Floor Mat + Footrest — Compatible with Chetak 3501 / 3502 2025 model",
+      "longDescription": "Premium aftermarket replacement for Urbane, Premium. Compatible with: Chetak 3501 / 3502 2025 model. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=600&auto=format&fit=crop"
+      ],
+      "stock": 10,
+      "rating": 5.0,
+      "reviewCount": 4,
+      "tags": [
+        "steel",
+        "safety",
+        "guard",
+        "full",
+        "set",
+        "2025",
+        "free",
+        "floor"
+      ],
+      "frequentlyBoughtWith": [
+        "bajaj-9h_speedometer_screen_guard_cluste-0",
+        "bajaj-full_tft_screen_protector_anti-scr-1"
+      ],
+      "isBestseller": false,
+      "isNew": true
+    },
+    {
+      "id": "hero-tft_screen_guard_7-inch_v2_pro_pl-0",
+      "name": "TFT Screen Guard (7-inch, V2 Pro/Plus/Lite)",
+      "brand": "hero",
+      "compatibleModels": [
+        "V2 Lite",
+        "V2 Plus",
+        "V2 Pro",
+        "VX2 Go",
+        "VX2 Plus"
+      ],
+      "category": "protection",
+      "salePrice": 159,
+      "wholesaleCost": 30,
+      "description": "TFT Screen Guard (7-inch, V2 Pro/Plus/Lite) — Compatible with Vida V2 Pro / V2 Plus / V2 Lite",
+      "longDescription": "Premium aftermarket replacement for V2 Lite, V2 Plus, V2 Pro, VX2 Go, VX2 Plus. Compatible with: Vida V2 Pro / V2 Plus / V2 Lite. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&auto=format&fit=crop"
+      ],
+      "stock": 58,
+      "rating": 4.1,
+      "reviewCount": 175,
+      "tags": [
+        "tft",
+        "screen",
+        "guard",
+        "7-inch,",
+        "pro",
+        "plus",
+        "lite",
+        "protection"
+      ],
+      "frequentlyBoughtWith": [
+        "hero-footmat__screen_guard__footrest_c-2",
+        "hero-pu_leather_seat_cover_front__rear-3"
+      ],
+      "isBestseller": true,
+      "isNew": false
+    },
+    {
+      "id": "hero-screen_guard_for_vx2_go__vx2_plus-1",
+      "name": "Screen Guard for VX2 Go / VX2 Plus (4.3-inch TFT)",
+      "brand": "hero",
+      "compatibleModels": [
+        "V2 Lite",
+        "V2 Plus",
+        "V2 Pro",
+        "VX2 Go",
+        "VX2 Plus"
+      ],
+      "category": "protection",
+      "salePrice": 149,
+      "wholesaleCost": 28,
+      "description": "Screen Guard for VX2 Go / VX2 Plus (4.3-inch TFT) — Compatible with Vida VX2 Go / VX2 Plus",
+      "longDescription": "Premium aftermarket replacement for V2 Lite, V2 Plus, V2 Pro, VX2 Go, VX2 Plus. Compatible with: Vida VX2 Go / VX2 Plus. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&auto=format&fit=crop"
+      ],
+      "stock": 40,
+      "rating": 4.0,
+      "reviewCount": 120,
+      "tags": [
+        "screen",
+        "guard",
+        "for",
+        "vx2",
+        "plus",
+        "4.3-inch",
+        "tft",
+        "protection"
+      ],
+      "frequentlyBoughtWith": [
+        "hero-footmat__screen_guard__footrest_c-2",
+        "hero-pu_leather_seat_cover_front__rear-3"
+      ],
+      "isBestseller": true,
+      "isNew": true
+    },
+    {
+      "id": "hero-pu_leather_seat_cover_front__rear-3",
+      "name": "PU Leather Seat Cover (Front + Rear, Waterproof)",
+      "brand": "hero",
+      "compatibleModels": [
+        "V2 Lite",
+        "V2 Plus",
+        "V2 Pro",
+        "VX2 Go",
+        "VX2 Plus"
+      ],
+      "category": "comfort",
+      "salePrice": 599,
+      "wholesaleCost": 190,
+      "description": "PU Leather Seat Cover (Front + Rear, Waterproof) — Compatible with Vida V2 Pro / Plus / VX2 Plus",
+      "longDescription": "Premium aftermarket replacement for V2 Lite, V2 Plus, V2 Pro, VX2 Go, VX2 Plus. Compatible with: Vida V2 Pro / Plus / VX2 Plus. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1598153346810-860daa814c4b?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=600&auto=format&fit=crop"
+      ],
+      "stock": 28,
+      "rating": 4.1,
+      "reviewCount": 85,
+      "tags": [
+        "leather",
+        "seat",
+        "cover",
+        "front",
+        "rear,",
+        "waterproof",
+        "comfort",
+        "hero"
+      ],
+      "frequentlyBoughtWith": [
+        "hero-tft_screen_guard_7-inch_v2_pro_pl-0",
+        "hero-screen_guard_for_vx2_go__vx2_plus-1"
+      ],
+      "isBestseller": false,
+      "isNew": false
+    },
+    {
+      "id": "hero-3d_anti-slip_rubber_floor_mat-4",
+      "name": "3D Anti-Slip Rubber Floor Mat",
+      "brand": "hero",
+      "compatibleModels": [
+        "V2 Lite",
+        "V2 Plus",
+        "V2 Pro",
+        "VX2 Go",
+        "VX2 Plus"
+      ],
+      "category": "comfort",
+      "salePrice": 399,
+      "wholesaleCost": 110,
+      "description": "3D Anti-Slip Rubber Floor Mat — Compatible with Vida V2 / VX2 all variants",
+      "longDescription": "Premium aftermarket replacement for V2 Lite, V2 Plus, V2 Pro, VX2 Go, VX2 Plus. Compatible with: Vida V2 / VX2 all variants. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1598153346810-860daa814c4b?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=600&auto=format&fit=crop"
+      ],
+      "stock": 21,
+      "rating": 4.0,
+      "reviewCount": 65,
+      "tags": [
+        "anti-slip",
+        "rubber",
+        "floor",
+        "mat",
+        "comfort",
+        "hero"
+      ],
+      "frequentlyBoughtWith": [
+        "hero-tft_screen_guard_7-inch_v2_pro_pl-0",
+        "hero-screen_guard_for_vx2_go__vx2_plus-1"
+      ],
+      "isBestseller": false,
+      "isNew": false
+    },
+    {
+      "id": "hero-number_plate_frame_ss_chrome-11",
+      "name": "Number Plate Frame (SS Chrome)",
+      "brand": "hero",
+      "compatibleModels": [
+        "V2 Lite",
+        "V2 Plus",
+        "V2 Pro",
+        "VX2 Go",
+        "VX2 Plus"
+      ],
+      "category": "utility",
+      "salePrice": 199,
+      "wholesaleCost": 45,
+      "description": "Number Plate Frame (SS Chrome) — Compatible with All Vida models",
+      "longDescription": "Premium aftermarket replacement for V2 Lite, V2 Plus, V2 Pro, VX2 Go, VX2 Plus. Compatible with: All Vida models. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop"
+      ],
+      "stock": 20,
+      "rating": 4.0,
+      "reviewCount": 60,
+      "tags": [
+        "number",
+        "plate",
+        "frame",
+        "chrome",
+        "utility",
+        "hero"
+      ],
+      "frequentlyBoughtWith": [
+        "hero-tft_screen_guard_7-inch_v2_pro_pl-0",
+        "hero-screen_guard_for_vx2_go__vx2_plus-1"
+      ],
+      "isBestseller": false,
+      "isNew": false
+    },
+    {
+      "id": "hero-footmat__screen_guard__footrest_c-2",
+      "name": "Footmat + Screen Guard + Footrest Combo 3-in-1",
+      "brand": "hero",
+      "compatibleModels": [
+        "V2 Lite",
+        "V2 Plus",
+        "V2 Pro",
+        "VX2 Go",
+        "VX2 Plus"
+      ],
+      "category": "combo",
+      "salePrice": 499,
+      "wholesaleCost": 150,
+      "description": "Footmat + Screen Guard + Footrest Combo 3-in-1 — Compatible with Vida VX2 Go / VX2 Plus",
+      "longDescription": "Premium aftermarket replacement for V2 Lite, V2 Plus, V2 Pro, VX2 Go, VX2 Plus. Compatible with: Vida VX2 Go / VX2 Plus. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1607603750909-408e19385117?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1527018601619-a508a2be00cd?w=600&auto=format&fit=crop"
+      ],
+      "stock": 18,
+      "rating": 4.2,
+      "reviewCount": 55,
+      "tags": [
+        "footmat",
+        "screen",
+        "guard",
+        "footrest",
+        "combo",
+        "3-in-1",
+        "hero"
+      ],
+      "frequentlyBoughtWith": [
+        "hero-tft_screen_guard_7-inch_v2_pro_pl-0",
+        "hero-screen_guard_for_vx2_go__vx2_plus-1"
+      ],
+      "isBestseller": false,
+      "isNew": true
+    },
+    {
+      "id": "hero-mobile_holder_with_usb_charging_ha-9",
+      "name": "Mobile Holder with USB Charging (Handlebar)",
+      "brand": "hero",
+      "compatibleModels": [
+        "V2 Lite",
+        "V2 Plus",
+        "V2 Pro",
+        "VX2 Go",
+        "VX2 Plus"
+      ],
+      "category": "utility",
+      "salePrice": 399,
+      "wholesaleCost": 110,
+      "description": "Mobile Holder with USB Charging (Handlebar) — Compatible with Vida all models",
+      "longDescription": "Premium aftermarket replacement for V2 Lite, V2 Plus, V2 Pro, VX2 Go, VX2 Plus. Compatible with: Vida all models. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop"
+      ],
+      "stock": 16,
+      "rating": 3.9,
+      "reviewCount": 50,
+      "tags": [
+        "mobile",
+        "holder",
+        "with",
+        "usb",
+        "charging",
+        "handlebar",
+        "utility",
+        "hero"
+      ],
+      "frequentlyBoughtWith": [
+        "hero-tft_screen_guard_7-inch_v2_pro_pl-0",
+        "hero-screen_guard_for_vx2_go__vx2_plus-1"
+      ],
+      "isBestseller": false,
+      "isNew": false
+    },
+    {
+      "id": "hero-crash_guard_full_body_set_with_fold-5",
+      "name": "Crash Guard Full Body Set with Foldable Footrest",
+      "brand": "hero",
+      "compatibleModels": [
+        "V2 Lite",
+        "V2 Plus",
+        "V2 Pro",
+        "VX2 Go",
+        "VX2 Plus"
+      ],
+      "category": "guards",
+      "salePrice": 2499,
+      "wholesaleCost": 800,
+      "description": "Crash Guard Full Body Set with Foldable Footrest — Compatible with Vida VX2 Plus",
+      "longDescription": "Premium aftermarket replacement for V2 Lite, V2 Plus, V2 Pro, VX2 Go, VX2 Plus. Compatible with: Vida VX2 Plus. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=600&auto=format&fit=crop"
+      ],
+      "stock": 10,
+      "rating": 4.2,
+      "reviewCount": 30,
+      "tags": [
+        "crash",
+        "guard",
+        "full",
+        "body",
+        "set",
+        "with",
+        "foldable",
+        "footrest"
+      ],
+      "frequentlyBoughtWith": [
+        "hero-tft_screen_guard_7-inch_v2_pro_pl-0",
+        "hero-screen_guard_for_vx2_go__vx2_plus-1"
+      ],
+      "isBestseller": false,
+      "isNew": true
+    },
+    {
+      "id": "hero-padded_pillion_backrest-8",
+      "name": "Padded Pillion Backrest",
+      "brand": "hero",
+      "compatibleModels": [
+        "V2 Lite",
+        "V2 Plus",
+        "V2 Pro",
+        "VX2 Go",
+        "VX2 Plus"
+      ],
+      "category": "comfort",
+      "salePrice": 799,
+      "wholesaleCost": 240,
+      "description": "Padded Pillion Backrest — Compatible with Vida V2 / VX2 all models",
+      "longDescription": "Premium aftermarket replacement for V2 Lite, V2 Plus, V2 Pro, VX2 Go, VX2 Plus. Compatible with: Vida V2 / VX2 all models. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1598153346810-860daa814c4b?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=600&auto=format&fit=crop"
+      ],
+      "stock": 10,
+      "rating": 4.0,
+      "reviewCount": 30,
+      "tags": [
+        "padded",
+        "pillion",
+        "backrest",
+        "comfort",
+        "hero"
+      ],
+      "frequentlyBoughtWith": [
+        "hero-tft_screen_guard_7-inch_v2_pro_pl-0",
+        "hero-screen_guard_for_vx2_go__vx2_plus-1"
+      ],
+      "isBestseller": false,
+      "isNew": false
+    },
+    {
+      "id": "hero-full_body_waterproof_scooter_cover-10",
+      "name": "Full Body Waterproof Scooter Cover",
+      "brand": "hero",
+      "compatibleModels": [
+        "V2 Lite",
+        "V2 Plus",
+        "V2 Pro",
+        "VX2 Go",
+        "VX2 Plus"
+      ],
+      "category": "covers",
+      "salePrice": 629,
+      "wholesaleCost": 190,
+      "description": "Full Body Waterproof Scooter Cover — Compatible with Vida V2 / VX2 all models",
+      "longDescription": "Premium aftermarket replacement for V2 Lite, V2 Plus, V2 Pro, VX2 Go, VX2 Plus. Compatible with: Vida V2 / VX2 all models. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1508962914676-134849a727f0?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1527018601619-a508a2be00cd?w=600&auto=format&fit=crop"
+      ],
+      "stock": 10,
+      "rating": 4.0,
+      "reviewCount": 25,
+      "tags": [
+        "full",
+        "body",
+        "waterproof",
+        "scooter",
+        "cover",
+        "covers",
+        "hero"
+      ],
+      "frequentlyBoughtWith": [
+        "hero-tft_screen_guard_7-inch_v2_pro_pl-0",
+        "hero-screen_guard_for_vx2_go__vx2_plus-1"
+      ],
+      "isBestseller": false,
+      "isNew": false
+    },
+    {
+      "id": "hero-chrome_full_body_crash_guard_vx2-6",
+      "name": "Chrome Full Body Crash Guard (VX2)",
+      "brand": "hero",
+      "compatibleModels": [
+        "V2 Lite",
+        "V2 Plus",
+        "V2 Pro",
+        "VX2 Go",
+        "VX2 Plus"
+      ],
+      "category": "guards",
+      "salePrice": 1999,
+      "wholesaleCost": 650,
+      "description": "Chrome Full Body Crash Guard (VX2) — Compatible with Vida VX2 / VX2 Plus",
+      "longDescription": "Premium aftermarket replacement for V2 Lite, V2 Plus, V2 Pro, VX2 Go, VX2 Plus. Compatible with: Vida VX2 / VX2 Plus. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=600&auto=format&fit=crop"
+      ],
+      "stock": 10,
+      "rating": 3.9,
+      "reviewCount": 20,
+      "tags": [
+        "chrome",
+        "full",
+        "body",
+        "crash",
+        "guard",
+        "vx2",
+        "guards",
+        "hero"
+      ],
+      "frequentlyBoughtWith": [
+        "hero-tft_screen_guard_7-inch_v2_pro_pl-0",
+        "hero-screen_guard_for_vx2_go__vx2_plus-1"
+      ],
+      "isBestseller": false,
+      "isNew": true
+    },
+    {
+      "id": "hero-helmet_lock_with_steel_cable-12",
+      "name": "Helmet Lock with Steel Cable",
+      "brand": "hero",
+      "compatibleModels": [
+        "V2 Lite",
+        "V2 Plus",
+        "V2 Pro",
+        "VX2 Go",
+        "VX2 Plus"
+      ],
+      "category": "utility",
+      "salePrice": 249,
+      "wholesaleCost": 60,
+      "description": "Helmet Lock with Steel Cable — Compatible with All Vida models",
+      "longDescription": "Premium aftermarket replacement for V2 Lite, V2 Plus, V2 Pro, VX2 Go, VX2 Plus. Compatible with: All Vida models. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop"
+      ],
+      "stock": 10,
+      "rating": 3.8,
+      "reviewCount": 20,
+      "tags": [
+        "helmet",
+        "lock",
+        "with",
+        "steel",
+        "cable",
+        "utility",
+        "hero"
+      ],
+      "frequentlyBoughtWith": [
+        "hero-tft_screen_guard_7-inch_v2_pro_pl-0",
+        "hero-screen_guard_for_vx2_go__vx2_plus-1"
+      ],
+      "isBestseller": false,
+      "isNew": false
+    },
+    {
+      "id": "hero-crash_guard_heavy_duty_black_vx2-7",
+      "name": "Crash Guard Heavy Duty Black (VX2)",
+      "brand": "hero",
+      "compatibleModels": [
+        "V2 Lite",
+        "V2 Plus",
+        "V2 Pro",
+        "VX2 Go",
+        "VX2 Plus"
+      ],
+      "category": "guards",
+      "salePrice": 1499,
+      "wholesaleCost": 480,
+      "description": "Crash Guard Heavy Duty Black (VX2) — Compatible with Vida VX2 / VX2 Plus",
+      "longDescription": "Premium aftermarket replacement for V2 Lite, V2 Plus, V2 Pro, VX2 Go, VX2 Plus. Compatible with: Vida VX2 / VX2 Plus. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=600&auto=format&fit=crop"
+      ],
+      "stock": 10,
+      "rating": 4.0,
+      "reviewCount": 15,
+      "tags": [
+        "crash",
+        "guard",
+        "heavy",
+        "duty",
+        "black",
+        "vx2",
+        "guards",
+        "hero"
+      ],
+      "frequentlyBoughtWith": [
+        "hero-tft_screen_guard_7-inch_v2_pro_pl-0",
+        "hero-screen_guard_for_vx2_go__vx2_plus-1"
+      ],
+      "isBestseller": false,
+      "isNew": true
+    },
+    {
+      "id": "ampere-9h_tft_screen_guard_7-inch_nexus_d-0",
+      "name": "9H TFT Screen Guard (7-inch Nexus Display)",
+      "brand": "ampere",
+      "compatibleModels": [
+        "Nexus EX",
+        "Nexus ST",
+        "Magnus Neo",
+        "Magnus Grand"
+      ],
+      "category": "protection",
+      "salePrice": 159,
+      "wholesaleCost": 30,
+      "description": "9H TFT Screen Guard (7-inch Nexus Display) — Compatible with Ampere Nexus EX / Nexus ST",
+      "longDescription": "Premium aftermarket replacement for Nexus EX, Nexus ST, Magnus Neo, Magnus Grand. Compatible with: Ampere Nexus EX / Nexus ST. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&auto=format&fit=crop"
+      ],
+      "stock": 26,
+      "rating": 3.9,
+      "reviewCount": 80,
+      "tags": [
+        "tft",
+        "screen",
+        "guard",
+        "7-inch",
+        "nexus",
+        "display",
+        "protection",
+        "ampere"
+      ],
+      "frequentlyBoughtWith": [
+        "ampere-pu_leather_seat_cover_waterproof-2",
+        "ampere-3d_anti-slip_floor_mat-3"
+      ],
+      "isBestseller": false,
+      "isNew": true
+    },
+    {
+      "id": "ampere-nano_scratch_guard_7-inch_cluster-1",
+      "name": "Nano Scratch Guard (7-inch cluster)",
+      "brand": "ampere",
+      "compatibleModels": [
+        "Nexus EX",
+        "Nexus ST",
+        "Magnus Neo",
+        "Magnus Grand"
+      ],
+      "category": "protection",
+      "salePrice": 149,
+      "wholesaleCost": 28,
+      "description": "Nano Scratch Guard (7-inch cluster) — Compatible with Nexus EX / ST / Magnus Neo",
+      "longDescription": "Premium aftermarket replacement for Nexus EX, Nexus ST, Magnus Neo, Magnus Grand. Compatible with: Nexus EX / ST / Magnus Neo. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&auto=format&fit=crop"
+      ],
+      "stock": 18,
+      "rating": 3.8,
+      "reviewCount": 55,
+      "tags": [
+        "nano",
+        "scratch",
+        "guard",
+        "7-inch",
+        "cluster",
+        "protection",
+        "ampere"
+      ],
+      "frequentlyBoughtWith": [
+        "ampere-pu_leather_seat_cover_waterproof-2",
+        "ampere-3d_anti-slip_floor_mat-3"
+      ],
+      "isBestseller": false,
+      "isNew": true
+    },
+    {
+      "id": "ampere-pu_leather_seat_cover_waterproof-2",
+      "name": "PU Leather Seat Cover (Waterproof)",
+      "brand": "ampere",
+      "compatibleModels": [
+        "Nexus EX",
+        "Nexus ST",
+        "Magnus Neo",
+        "Magnus Grand"
+      ],
+      "category": "comfort",
+      "salePrice": 599,
+      "wholesaleCost": 190,
+      "description": "PU Leather Seat Cover (Waterproof) — Compatible with Nexus EX / Nexus ST",
+      "longDescription": "Premium aftermarket replacement for Nexus EX, Nexus ST, Magnus Neo, Magnus Grand. Compatible with: Nexus EX / Nexus ST. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1598153346810-860daa814c4b?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=600&auto=format&fit=crop"
+      ],
+      "stock": 10,
+      "rating": 4.0,
+      "reviewCount": 30,
+      "tags": [
+        "leather",
+        "seat",
+        "cover",
+        "waterproof",
+        "comfort",
+        "ampere"
+      ],
+      "frequentlyBoughtWith": [
+        "ampere-9h_tft_screen_guard_7-inch_nexus_d-0",
+        "ampere-nano_scratch_guard_7-inch_cluster-1"
+      ],
+      "isBestseller": false,
+      "isNew": true
+    },
+    {
+      "id": "ampere-3d_anti-slip_floor_mat-3",
+      "name": "3D Anti-Slip Floor Mat",
+      "brand": "ampere",
+      "compatibleModels": [
+        "Nexus EX",
+        "Nexus ST",
+        "Magnus Neo",
+        "Magnus Grand"
+      ],
+      "category": "comfort",
+      "salePrice": 399,
+      "wholesaleCost": 110,
+      "description": "3D Anti-Slip Floor Mat — Compatible with Nexus EX / Nexus ST / Magnus",
+      "longDescription": "Premium aftermarket replacement for Nexus EX, Nexus ST, Magnus Neo, Magnus Grand. Compatible with: Nexus EX / Nexus ST / Magnus. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1598153346810-860daa814c4b?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=600&auto=format&fit=crop"
+      ],
+      "stock": 10,
+      "rating": 3.9,
+      "reviewCount": 25,
+      "tags": [
+        "anti-slip",
+        "floor",
+        "mat",
+        "comfort",
+        "ampere"
+      ],
+      "frequentlyBoughtWith": [
+        "ampere-9h_tft_screen_guard_7-inch_nexus_d-0",
+        "ampere-nano_scratch_guard_7-inch_cluster-1"
+      ],
+      "isBestseller": false,
+      "isNew": true
+    },
+    {
+      "id": "ampere-number_plate_frame_chrome_ss-8",
+      "name": "Number Plate Frame (Chrome SS)",
+      "brand": "ampere",
+      "compatibleModels": [
+        "Nexus EX",
+        "Nexus ST",
+        "Magnus Neo",
+        "Magnus Grand"
+      ],
+      "category": "utility",
+      "salePrice": 199,
+      "wholesaleCost": 45,
+      "description": "Number Plate Frame (Chrome SS) — Compatible with All Ampere models",
+      "longDescription": "Premium aftermarket replacement for Nexus EX, Nexus ST, Magnus Neo, Magnus Grand. Compatible with: All Ampere models. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop"
+      ],
+      "stock": 10,
+      "rating": 4.0,
+      "reviewCount": 25,
+      "tags": [
+        "number",
+        "plate",
+        "frame",
+        "chrome",
+        "utility",
+        "ampere"
+      ],
+      "frequentlyBoughtWith": [
+        "ampere-9h_tft_screen_guard_7-inch_nexus_d-0",
+        "ampere-nano_scratch_guard_7-inch_cluster-1"
+      ],
+      "isBestseller": false,
+      "isNew": true
+    },
+    {
+      "id": "ampere-crash_guard__foldable_footrest-4",
+      "name": "Crash Guard + Foldable Footrest",
+      "brand": "ampere",
+      "compatibleModels": [
+        "Nexus EX",
+        "Nexus ST",
+        "Magnus Neo",
+        "Magnus Grand"
+      ],
+      "category": "guards",
+      "salePrice": 1499,
+      "wholesaleCost": 480,
+      "description": "Crash Guard + Foldable Footrest — Compatible with Ampere Nexus EX / ST",
+      "longDescription": "Premium aftermarket replacement for Nexus EX, Nexus ST, Magnus Neo, Magnus Grand. Compatible with: Ampere Nexus EX / ST. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=600&auto=format&fit=crop"
+      ],
+      "stock": 10,
+      "rating": 4.0,
+      "reviewCount": 20,
+      "tags": [
+        "crash",
+        "guard",
+        "foldable",
+        "footrest",
+        "guards",
+        "ampere"
+      ],
+      "frequentlyBoughtWith": [
+        "ampere-9h_tft_screen_guard_7-inch_nexus_d-0",
+        "ampere-nano_scratch_guard_7-inch_cluster-1"
+      ],
+      "isBestseller": false,
+      "isNew": true
+    },
+    {
+      "id": "ampere-mobile_holder_with_usb_charging_ha-5",
+      "name": "Mobile Holder with USB Charging (Handlebar)",
+      "brand": "ampere",
+      "compatibleModels": [
+        "Nexus EX",
+        "Nexus ST",
+        "Magnus Neo",
+        "Magnus Grand"
+      ],
+      "category": "utility",
+      "salePrice": 399,
+      "wholesaleCost": 110,
+      "description": "Mobile Holder with USB Charging (Handlebar) — Compatible with Nexus / Magnus all models",
+      "longDescription": "Premium aftermarket replacement for Nexus EX, Nexus ST, Magnus Neo, Magnus Grand. Compatible with: Nexus / Magnus all models. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop"
+      ],
+      "stock": 10,
+      "rating": 3.9,
+      "reviewCount": 20,
+      "tags": [
+        "mobile",
+        "holder",
+        "with",
+        "usb",
+        "charging",
+        "handlebar",
+        "utility",
+        "ampere"
+      ],
+      "frequentlyBoughtWith": [
+        "ampere-9h_tft_screen_guard_7-inch_nexus_d-0",
+        "ampere-nano_scratch_guard_7-inch_cluster-1"
+      ],
+      "isBestseller": false,
+      "isNew": true
+    },
+    {
+      "id": "ampere-full_body_waterproof_scooter_cover-6",
+      "name": "Full Body Waterproof Scooter Cover",
+      "brand": "ampere",
+      "compatibleModels": [
+        "Nexus EX",
+        "Nexus ST",
+        "Magnus Neo",
+        "Magnus Grand"
+      ],
+      "category": "covers",
+      "salePrice": 629,
+      "wholesaleCost": 190,
+      "description": "Full Body Waterproof Scooter Cover — Compatible with Ampere Nexus / Magnus all",
+      "longDescription": "Premium aftermarket replacement for Nexus EX, Nexus ST, Magnus Neo, Magnus Grand. Compatible with: Ampere Nexus / Magnus all. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1508962914676-134849a727f0?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1527018601619-a508a2be00cd?w=600&auto=format&fit=crop"
+      ],
+      "stock": 10,
+      "rating": 4.0,
+      "reviewCount": 18,
+      "tags": [
+        "full",
+        "body",
+        "waterproof",
+        "scooter",
+        "cover",
+        "covers",
+        "ampere"
+      ],
+      "frequentlyBoughtWith": [
+        "ampere-9h_tft_screen_guard_7-inch_nexus_d-0",
+        "ampere-nano_scratch_guard_7-inch_cluster-1"
+      ],
+      "isBestseller": false,
+      "isNew": true
+    },
+    {
+      "id": "ampere-padded_pillion_backrest-7",
+      "name": "Padded Pillion Backrest",
+      "brand": "ampere",
+      "compatibleModels": [
+        "Nexus EX",
+        "Nexus ST",
+        "Magnus Neo",
+        "Magnus Grand"
+      ],
+      "category": "comfort",
+      "salePrice": 799,
+      "wholesaleCost": 240,
+      "description": "Padded Pillion Backrest — Compatible with Nexus EX / Nexus ST",
+      "longDescription": "Premium aftermarket replacement for Nexus EX, Nexus ST, Magnus Neo, Magnus Grand. Compatible with: Nexus EX / Nexus ST. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1598153346810-860daa814c4b?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=600&auto=format&fit=crop"
+      ],
+      "stock": 10,
+      "rating": 3.8,
+      "reviewCount": 15,
+      "tags": [
+        "padded",
+        "pillion",
+        "backrest",
+        "comfort",
+        "ampere"
+      ],
+      "frequentlyBoughtWith": [
+        "ampere-9h_tft_screen_guard_7-inch_nexus_d-0",
+        "ampere-nano_scratch_guard_7-inch_cluster-1"
+      ],
+      "isBestseller": false,
+      "isNew": true
+    },
+    {
+      "id": "ampere-helmet_lock_with_steel_cable-9",
+      "name": "Helmet Lock with Steel Cable",
+      "brand": "ampere",
+      "compatibleModels": [
+        "Nexus EX",
+        "Nexus ST",
+        "Magnus Neo",
+        "Magnus Grand"
+      ],
+      "category": "utility",
+      "salePrice": 249,
+      "wholesaleCost": 60,
+      "description": "Helmet Lock with Steel Cable — Compatible with All Ampere models",
+      "longDescription": "Premium aftermarket replacement for Nexus EX, Nexus ST, Magnus Neo, Magnus Grand. Compatible with: All Ampere models. Trusted by thousands of EV owners across India.",
+      "images": [
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop"
+      ],
+      "stock": 10,
+      "rating": 3.8,
+      "reviewCount": 15,
+      "tags": [
+        "helmet",
+        "lock",
+        "with",
+        "steel",
+        "cable",
+        "utility",
+        "ampere"
+      ],
+      "frequentlyBoughtWith": [
+        "ampere-9h_tft_screen_guard_7-inch_nexus_d-0",
+        "ampere-nano_scratch_guard_7-inch_cluster-1"
+      ],
+      "isBestseller": false,
+      "isNew": true
     }
   ]
 }

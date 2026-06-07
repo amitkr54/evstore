@@ -13,6 +13,11 @@ const categories = [
   { value: "protection", label: "Screen Protection", icon: "🛡️" },
   { value: "guards", label: "Crash Guards", icon: "🦺" },
   { value: "comfort", label: "Comfort & Mats", icon: "💺" },
+  { value: "charger", label: "Charger Accessories", icon: "⚡" },
+  { value: "utility", label: "Utility & Holders", icon: "🔧" },
+  { value: "covers", label: "Scooter Covers", icon: "🏍️" },
+  { value: "combo", label: "Combo Kits", icon: "📦" },
+  { value: "spares", label: "Spare Parts", icon: "⚙️" },
 ];
 
 const sortOptions = [
@@ -31,7 +36,7 @@ function CatalogContent() {
 
   const [selectedBrands, setSelectedBrands] = useState<string[]>(initialBrand ? [initialBrand] : []);
   const [selectedCategories, setSelectedCategories] = useState<string[]>(initialCategory ? [initialCategory] : []);
-  const [priceRange, setPriceRange] = useState<[number, number]>([0, 4000]);
+  const [priceRange, setPriceRange] = useState<[number, number]>([0, 5000]);
   const [searchQuery, setSearchQuery] = useState(initialQuery);
   const [sortBy, setSortBy] = useState("popular");
   const [filterOpen, setFilterOpen] = useState(false);

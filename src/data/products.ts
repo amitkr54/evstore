@@ -1,4 +1,4 @@
-export type Category = "cables" | "protection" | "comfort" | "guards";
+export type Category = "cables" | "protection" | "comfort" | "guards" | "charger" | "utility" | "spares" | "combo" | "covers";
 
 export interface Product {
   id: string;

@@ -43,7 +43,7 @@ export default function Footer() {
               {brands.map((brand) => (
                 <li key={brand.id}>
                   <Link
-                    href={`/catalog?brand=${brand.id}`}
+                    href={`/brand/${brand.id}`}
                     className="text-sm text-gray-500 hover:text-white transition-colors flex items-center gap-1.5"
                   >
                     <BrandLogo logo={brand.logo} className="w-4 h-4 flex-shrink-0" color={brand.color} />

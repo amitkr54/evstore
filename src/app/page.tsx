@@ -77,7 +77,7 @@ export default function HomePage() {
               <Link
                 key={brand.id}
                 id={`brand-filter-${brand.id}`}
-                href={`/catalog?brand=${brand.id}`}
+                href={`/brand/${brand.id}`}
                 className="card-hover rounded-2xl p-5 text-left group transition-all duration-200"
                 style={{ background: "var(--bg-card)", border: "1px solid var(--border)" }}
               >

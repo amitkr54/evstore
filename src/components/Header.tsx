@@ -66,7 +66,7 @@ export default function Header() {
               {brands.map((brand) => (
                 <Link
                   key={brand.id}
-                  href={`/catalog?brand=${brand.id}`}
+                  href={`/brand/${brand.id}`}
                   className="text-sm font-medium text-gray-400 hover:text-white transition-colors"
                 >
                   {brand.displayName.split(" ")[0]}
@@ -126,7 +126,7 @@ export default function Header() {
               {brands.map((brand) => (
                 <Link
                   key={brand.id}
-                  href={`/catalog?brand=${brand.id}`}
+                  href={`/brand/${brand.id}`}
                   onClick={() => setMobileMenuOpen(false)}
                   className="flex items-center gap-2 p-3 rounded-xl glass-light hover:bg-white/10 transition-all text-sm font-medium"
                 >

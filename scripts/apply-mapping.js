@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const dataPath = path.join(__dirname, '..', 'src', 'data', 'data.json');
-const mappingPath = 'C:\\Users\\Admin\\Downloads\\image-mapping (1).json';
+const mappingPath = 'C:\\Users\\Admin\\Downloads\\image-mapping (2).json';
 
 const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
 const mapping = JSON.parse(fs.readFileSync(mappingPath, 'utf8'));

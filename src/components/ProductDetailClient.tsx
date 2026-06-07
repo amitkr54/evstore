@@ -20,9 +20,18 @@ export default function ProductDetailClient({ product, brand }: ProductDetailCli
   const { addItem, items } = useCart();
   const [quantity, setQuantity] = useState(1);
   const [activeImage, setActiveImage] = useState(0);
+  const [isZoomActive, setIsZoomActive] = useState(false);
   const [zoomStyle, setZoomStyle] = useState({ transformOrigin: "center", transform: "scale(1)" });
 
+  const handleDoubleClick = () => {
+    setIsZoomActive((prev) => !prev);
+    if (isZoomActive) {
+      setZoomStyle({ transformOrigin: "center", transform: "scale(1)" });
+    }
+  };
+
   const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
+    if (!isZoomActive) return;
     const { left, top, width, height } = e.currentTarget.getBoundingClientRect();
     const x = ((e.clientX - left) / width) * 100;
     const y = ((e.clientY - top) / height) * 100;
@@ -33,6 +42,7 @@ export default function ProductDetailClient({ product, brand }: ProductDetailCli
   };
 
   const handleMouseLeave = () => {
+    setIsZoomActive(false);
     setZoomStyle({ transformOrigin: "center", transform: "scale(1)" });
   };
   const [added, setAdded] = useState(false);
@@ -68,8 +78,9 @@ export default function ProductDetailClient({ product, brand }: ProductDetailCli
         {/* Image Gallery */}
         <div className="space-y-3">
           <div 
-            className="relative rounded-2xl overflow-hidden cursor-zoom-in" 
+            className={`relative rounded-2xl overflow-hidden ${isZoomActive ? 'cursor-zoom-out' : 'cursor-zoom-in'}`} 
             style={{ background: "var(--bg-card)", border: "1px solid var(--border)", aspectRatio: "4/3" }}
+            onDoubleClick={handleDoubleClick}
             onMouseMove={handleMouseMove}
             onMouseLeave={handleMouseLeave}
           >
@@ -77,7 +88,7 @@ export default function ProductDetailClient({ product, brand }: ProductDetailCli
               src={product.images[activeImage]}
               alt={`${product.name} - View ${activeImage + 1}`}
               className="w-full h-full object-cover transition-transform duration-100 ease-linear"
-              style={zoomStyle}
+              style={isZoomActive ? zoomStyle : { transformOrigin: "center", transform: "scale(1)" }}
             />
             {/* Badges */}
             <div className="absolute top-4 left-4 flex flex-col gap-2">

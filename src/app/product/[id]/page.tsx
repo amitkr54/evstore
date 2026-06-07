@@ -15,8 +15,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const brand = brands.find((b) => b.id === product.brand);
   const brandName = brand?.displayName || product.brand;
 
-  const title = `${product.name} for ${brandName} | EVParts India`;
-  const description = `${product.description}. 100% Fitment Guaranteed for ${product.compatibleModels.join(", ")}. Buy online from EVParts India.`;
+  const title = `${brandName} ${product.compatibleModels[0]} ${product.name} — ${product.compatibleModels.slice(1, 3).join(", ")} Compatible | EVParts India`;
+  const description = `${product.description}. Compatible with ${product.compatibleModels.join(", ")}. ₹${product.salePrice}. ${product.reviewCount}+ reviews. Free shipping above ₹399. Ships in 24hrs across India.`;
 
   return {
     title,

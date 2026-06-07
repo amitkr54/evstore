@@ -18,7 +18,23 @@ interface ProductDetailClientProps {
 
 export default function ProductDetailClient({ product, brand }: ProductDetailClientProps) {
   const { addItem, items } = useCart();
+  const [quantity, setQuantity] = useState(1);
   const [activeImage, setActiveImage] = useState(0);
+  const [zoomStyle, setZoomStyle] = useState({ transformOrigin: "center", transform: "scale(1)" });
+
+  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
+    const { left, top, width, height } = e.currentTarget.getBoundingClientRect();
+    const x = ((e.clientX - left) / width) * 100;
+    const y = ((e.clientY - top) / height) * 100;
+    setZoomStyle({
+      transformOrigin: `${x}% ${y}%`,
+      transform: "scale(2.5)"
+    });
+  };
+
+  const handleMouseLeave = () => {
+    setZoomStyle({ transformOrigin: "center", transform: "scale(1)" });
+  };
   const [added, setAdded] = useState(false);
 
   const discount = calculateDiscount(product.salePrice);
@@ -51,11 +67,17 @@ export default function ProductDetailClient({ product, brand }: ProductDetailCli
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mb-12">
         {/* Image Gallery */}
         <div className="space-y-3">
-          <div className="relative rounded-2xl overflow-hidden" style={{ background: "var(--bg-card)", border: "1px solid var(--border)", aspectRatio: "4/3" }}>
+          <div 
+            className="relative rounded-2xl overflow-hidden cursor-zoom-in" 
+            style={{ background: "var(--bg-card)", border: "1px solid var(--border)", aspectRatio: "4/3" }}
+            onMouseMove={handleMouseMove}
+            onMouseLeave={handleMouseLeave}
+          >
             <img
               src={product.images[activeImage]}
               alt={`${product.name} - View ${activeImage + 1}`}
-              className="w-full h-full object-cover transition-opacity duration-300"
+              className="w-full h-full object-cover transition-transform duration-100 ease-linear"
+              style={zoomStyle}
             />
             {/* Badges */}
             <div className="absolute top-4 left-4 flex flex-col gap-2">

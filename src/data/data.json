@@ -1,0 +1,247 @@
+{
+  "settings": {
+    "whatsappNumber": "919876543210",
+    "upiId": "evpartsindia@oksbi",
+    "storeName": "EVParts India",
+    "shippingThreshold": 399,
+    "shippingFee": 49
+  },
+  "brands": [
+    {
+      "id": "ola",
+      "name": "OLA",
+      "displayName": "OLA Electric",
+      "models": ["S1 Pro", "S1 Air", "S1X", "S1X+"],
+      "color": "#E8272A",
+      "gradient": "from-red-600 to-red-800",
+      "logo": "<svg viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg' stroke='currentColor' stroke-width='8' stroke-linecap='round'><circle cx='50' cy='50' r='38' stroke-dasharray='160 50' /><path d='M42 32L58 50H42L58 68' stroke-width='6' /></svg>"
+    },
+    {
+      "id": "tvs",
+      "name": "TVS",
+      "displayName": "TVS iQube",
+      "models": ["iQube S", "iQube ST", "iQube Electric"],
+      "color": "#0052A5",
+      "gradient": "from-blue-600 to-blue-900",
+      "logo": "<svg viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg' stroke='currentColor' stroke-width='8' stroke-linecap='round' stroke-linejoin='round'><path d='M15 80C30 80 40 60 55 50C70 40 85 45 90 30C95 15 80 5 70 15C60 25 45 45 30 55C15 65 10 70 10 80Z'/><path d='M65 15C70 25 60 35 50 35' stroke='currentColor' stroke-width='4'/></svg>"
+    },
+    {
+      "id": "ather",
+      "name": "Ather",
+      "displayName": "Ather Energy",
+      "models": ["450X", "450S", "Rizta"],
+      "color": "#00A651",
+      "gradient": "from-green-500 to-emerald-700",
+      "logo": "<svg viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg' stroke='currentColor' stroke-width='9' stroke-linecap='round'><circle cx='50' cy='50' r='38'/><path d='M35 70 L50 32 L65 70 M41 56 H59'/></svg>"
+    },
+    {
+      "id": "bajaj",
+      "name": "Bajaj",
+      "displayName": "Bajaj Chetak",
+      "models": ["Urbane", "Premium"],
+      "color": "#1F3A8A",
+      "gradient": "from-indigo-700 to-indigo-900",
+      "logo": "<svg viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg' stroke='currentColor' stroke-width='9' stroke-linecap='round'><path d='M75 30 C65 20 50 18 38 25 C25 32 18 48 22 62 C26 77 42 85 55 80 C68 75 75 62 75 50' /></svg>"
+    }
+  ],
+  "products": [
+    {
+      "id": "ola-cable-combo",
+      "name": "3-Piece Cable Combo (Front/Rear Brake + Acc.)",
+      "brand": "ola",
+      "compatibleModels": ["S1 Pro", "S1 Air", "S1X", "S1X+"],
+      "category": "cables",
+      "salePrice": 399,
+      "wholesaleCost": 130,
+      "description": "Front & Rear Brake + Accelerator Throttle Cable Set",
+      "longDescription": "High-demand replacement cable combo for OLA S1 Electric scooters. Resolves the common 15-20 day waiting period at official OLA service centers. Built with premium stainless steel wire core and anti-corrosion outer sleeves for smooth control.",
+      "images": [
+        "https://images.unsplash.com/photo-1485965120184-e220f721d03e?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop"
+      ],
+      "stock": 120,
+      "rating": 4.6,
+      "reviewCount": 382,
+      "tags": ["cables", "brake cable", "accelerator cable", "ola parts"],
+      "frequentlyBoughtWith": ["ola-screen-guard", "ola-crash-guard"],
+      "isBestseller": true,
+      "isNew": false
+    },
+    {
+      "id": "ola-screen-guard",
+      "name": "Tempered Screen Guard (Touchscreen)",
+      "brand": "ola",
+      "compatibleModels": ["S1 Pro", "S1 Air", "S1X", "S1X+"],
+      "category": "protection",
+      "salePrice": 199,
+      "wholesaleCost": 30,
+      "description": "9H Hardness Ultra Clear Touchscreen Tempered Glass",
+      "longDescription": "Premium 9H tempered glass screen guard custom cut for the OLA S1 dashboard. Prevents screen degradation and water damage from direct sunlight and heavy rain. Highly recommended day-one purchase for new owners.",
+      "images": [
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&auto=format&fit=crop"
+      ],
+      "stock": 450,
+      "rating": 4.8,
+      "reviewCount": 984,
+      "tags": ["screen guard", "protection", "tempered glass", "touchscreen"],
+      "frequentlyBoughtWith": ["ola-cable-combo", "ola-crash-guard"],
+      "isBestseller": true,
+      "isNew": false
+    },
+    {
+      "id": "ola-crash-guard",
+      "name": "Full Body Metal Crash Guard",
+      "brand": "ola",
+      "compatibleModels": ["S1 Pro", "S1 Air", "S1X", "S1X+"],
+      "category": "guards",
+      "salePrice": 2999,
+      "wholesaleCost": 1200,
+      "description": "Heavy-Duty Powder Coated Metal Crash Guard kit",
+      "longDescription": "Robust full-body wrap-around metal protection guard frame. OLA's stock fibre/plastic body panel breaks easily on minor falls; this steel guard absorbs all impacts to save you thousands in panel replacement costs.",
+      "images": [
+        "https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=600&auto=format&fit=crop"
+      ],
+      "stock": 48,
+      "rating": 4.7,
+      "reviewCount": 194,
+      "tags": ["crash guard", "protection", "metal frame", "safety"],
+      "frequentlyBoughtWith": ["ola-screen-guard", "ola-cable-combo"],
+      "isBestseller": false,
+      "isNew": false
+    },
+    {
+      "id": "tvs-footrest",
+      "name": "Heavy Duty Ladies Footrest",
+      "brand": "tvs",
+      "compatibleModels": ["iQube S", "iQube ST", "iQube Electric"],
+      "category": "comfort",
+      "salePrice": 1199,
+      "wholesaleCost": 320,
+      "description": "Ergonomic Folding Side Footrest for Family Comfort",
+      "longDescription": "Premium side step footrest designed for the TVS iQube family scooter. Crucial safety accessory for pillion riders who sit sideways. Built from heavy-duty cast aluminium with anti-skid rubber padding.",
+      "images": [
+        "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1508962914676-134849a727f0?w=600&auto=format&fit=crop"
+      ],
+      "stock": 70,
+      "rating": 4.5,
+      "reviewCount": 312,
+      "tags": ["footrest", "ladies step", "iqube step", "pillion comfort"],
+      "frequentlyBoughtWith": ["tvs-floormat-combo"],
+      "isBestseller": true,
+      "isNew": false
+    },
+    {
+      "id": "tvs-floormat-combo",
+      "name": "7D Floor Mat + Charging Cap Cover",
+      "brand": "tvs",
+      "compatibleModels": ["iQube S", "iQube ST", "iQube Electric"],
+      "category": "comfort",
+      "salePrice": 499,
+      "wholesaleCost": 160,
+      "description": "Custom Fit 7D Anti-Skid Floor Mat with Protective Charging Cap",
+      "longDescription": "Best-seller combination for TVS iQube owners. Water-resistant 7D floor deck mat shields your deck from dirt accumulation, and the waterproof silicone cap keeps your charger socket dry during rainy monsoon rides.",
+      "images": [
+        "https://images.unsplash.com/photo-1527018601619-a508a2be00cd?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1607603750909-408e19385117?w=600&auto=format&fit=crop"
+      ],
+      "stock": 160,
+      "rating": 4.4,
+      "reviewCount": 218,
+      "tags": ["floor mat", "charging cap", "combo pack", "rubber mat"],
+      "frequentlyBoughtWith": ["tvs-footrest"],
+      "isBestseller": false,
+      "isNew": false
+    },
+    {
+      "id": "ather-seat-cover",
+      "name": "Premium Seat Cover + Boot Mat",
+      "brand": "ather",
+      "compatibleModels": ["450X", "450S", "Rizta"],
+      "category": "comfort",
+      "salePrice": 599,
+      "wholesaleCost": 190,
+      "description": "Ergonomic Sporty Stitched Seat Cover and Matching Rubber Boot Mat",
+      "longDescription": "Add premium comfort styling to your Ather. Features a customized high-density double-stitched leatherette seat cover paired with a custom-fit rubber boot mat to protect the underseat storage space.",
+      "images": [
+        "https://images.unsplash.com/photo-1598153346810-860daa814c4b?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1508962914676-134849a727f0?w=600&auto=format&fit=crop"
+      ],
+      "stock": 85,
+      "rating": 4.6,
+      "reviewCount": 182,
+      "tags": ["seat cover", "boot mat", "leatherette", "ather comfort"],
+      "frequentlyBoughtWith": ["ather-screen-guard"],
+      "isBestseller": true,
+      "isNew": false
+    },
+    {
+      "id": "ather-screen-guard",
+      "name": "Ather Display Protector (9H Nano)",
+      "brand": "ather",
+      "compatibleModels": ["450X", "450S", "Rizta"],
+      "category": "protection",
+      "salePrice": 249,
+      "wholesaleCost": 35,
+      "description": "9H Flexible Nano-Glass Shield for Ather Console",
+      "longDescription": "Avoid the heavy ₹15,000+ replacement cost of a cracked Ather smart console. 9H flexible nano-glass protection is shatter-proof, scratch-resistant, and maintains original touch response.",
+      "images": [
+        "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop"
+      ],
+      "stock": 290,
+      "rating": 4.7,
+      "reviewCount": 420,
+      "tags": ["display protector", "nano glass", "touchscreen", "screen guard"],
+      "frequentlyBoughtWith": ["ather-seat-cover"],
+      "isBestseller": false,
+      "isNew": true
+    },
+    {
+      "id": "bajaj-crash-guard",
+      "name": "Full-Body Stainless Steel Guard",
+      "brand": "bajaj",
+      "compatibleModels": ["Urbane", "Premium"],
+      "category": "guards",
+      "salePrice": 3499,
+      "wholesaleCost": 1400,
+      "description": "Rust-Free Full Wrap Stainless Steel Protection Bumper Set",
+      "longDescription": "Since the Bajaj Chetak is made of premium metal/iron sheet body panels, getting scratches leads to high denting and painting costs. Protect your scooter from dents with this stylish stainless steel guard kit.",
+      "images": [
+        "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=600&auto=format&fit=crop"
+      ],
+      "stock": 38,
+      "rating": 4.8,
+      "reviewCount": 142,
+      "tags": ["stainless steel", "crash guard", "chetak metal", "protection frame"],
+      "frequentlyBoughtWith": ["bajaj-footrest"],
+      "isBestseller": true,
+      "isNew": false
+    },
+    {
+      "id": "bajaj-footrest",
+      "name": "Chetak Integrated Ladies Step",
+      "brand": "bajaj",
+      "compatibleModels": ["Urbane", "Premium"],
+      "category": "comfort",
+      "salePrice": 1099,
+      "wholesaleCost": 280,
+      "description": "Custom Fit Heavy Duty Folding Step Footrest",
+      "longDescription": "The Bajaj Chetak does not come with a side pillion step-assist footrest in-built from the factory. This hot-selling aftermarket component solves that, folding out smoothly and locking for family passenger safety.",
+      "images": [
+        "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1508962914676-134849a727f0?w=600&auto=format&fit=crop"
+      ],
+      "stock": 80,
+      "rating": 4.5,
+      "reviewCount": 118,
+      "tags": ["footrest", "ladies step", "folding footrest", "chetak side step"],
+      "frequentlyBoughtWith": ["bajaj-crash-guard"],
+      "isBestseller": false,
+      "isNew": false
+    }
+  ]
+}

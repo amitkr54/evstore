@@ -18,6 +18,9 @@ export interface Product {
   frequentlyBoughtWith: string[];
   isBestseller?: boolean;
   isNew?: boolean;
+  slug: string;
+  metaTitle: string;
+  metaDescription: string;
 }
 
 export type Brand = string;
@@ -45,6 +48,10 @@ export const STORE_NAME = data.settings.storeName;
 
 export function getProductById(id: string): Product | undefined {
   return products.find((p) => p.id === id);
+}
+
+export function getProductBySlug(slug: string): Product | undefined {
+  return products.find((p) => p.slug === slug);
 }
 
 export function getProductsByBrand(brand: Brand): Product[] {

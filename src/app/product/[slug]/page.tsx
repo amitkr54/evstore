@@ -1,22 +1,22 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { getProductById, brands } from "@/data/products";
+import { getProductBySlug, brands } from "@/data/products";
 import ProductDetailClient from "@/components/ProductDetailClient";
 
 interface PageProps {
-  params: Promise<{ id: string }>;
+  params: Promise<{ slug: string }>;
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const { id } = await params;
-  const product = getProductById(id);
+  const { slug } = await params;
+  const product = getProductBySlug(slug);
   if (!product) return {};
 
   const brand = brands.find((b) => b.id === product.brand);
   const brandName = brand?.displayName || product.brand;
 
-  const title = `${brandName} ${product.compatibleModels[0]} ${product.name} — ${product.compatibleModels.slice(1, 3).join(", ")} Compatible | EVParts India`;
-  const description = `${product.description}. Compatible with ${product.compatibleModels.join(", ")}. ₹${product.salePrice}. ${product.reviewCount}+ reviews. Free shipping above ₹399. Ships in 24hrs across India.`;
+  const title = product.metaTitle;
+  const description = product.metaDescription;
 
   return {
     title,
@@ -32,8 +32,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 }
 
 export default async function ProductDetailPage({ params }: PageProps) {
-  const { id } = await params;
-  const product = getProductById(id);
+  const { slug } = await params;
+  const product = getProductBySlug(slug);
 
   if (!product) notFound();
 
@@ -58,7 +58,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
       "price": product.salePrice,
       "itemCondition": "https://schema.org/NewCondition",
       "availability": product.stock > 0 ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
-      "url": `https://evpartsindia.vercel.app/product/${product.id}`
+      "url": `https://evpartsindia.vercel.app/product/${product.slug}`
     }
   };
 

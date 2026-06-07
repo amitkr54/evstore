@@ -38,7 +38,7 @@ export default function ProductCard({ product, variant = "default" }: ProductCar
       border: "1px solid var(--border)",
     }}>
       {/* Image Container */}
-      <Link href={`/product/${product.id}`} className="block relative overflow-hidden" style={{ aspectRatio: "4/3" }}>
+      <Link href={`/product/${product.slug}`} className="block relative overflow-hidden" style={{ aspectRatio: "4/3" }}>
         <img
           src={product.images[0]}
           alt={product.name}
@@ -82,7 +82,7 @@ export default function ProductCard({ product, variant = "default" }: ProductCar
         </p>
 
         {/* Product name */}
-        <Link href={`/product/${product.id}`}>
+        <Link href={`/product/${product.slug}`}>
           <h3 className="font-bold text-white leading-snug mb-1 hover:text-green-400 transition-colors line-clamp-2" style={{ fontFamily: "Outfit, sans-serif", fontSize: "0.95rem" }}>
             {product.name}
           </h3>

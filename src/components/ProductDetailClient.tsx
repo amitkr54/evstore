@@ -41,7 +41,7 @@ export default function ProductDetailClient({ product, brand }: ProductDetailCli
         <ChevronRight size={12} />
         <Link href="/catalog" className="hover:text-white transition-colors">Catalog</Link>
         <ChevronRight size={12} />
-        <Link href={`/catalog?brand=${product.brand}`} className="hover:text-white transition-colors capitalize">
+        <Link href={`/brand/${product.brand}`} className="hover:text-white transition-colors capitalize">
           {brand?.displayName}
         </Link>
         <ChevronRight size={12} />
@@ -164,7 +164,7 @@ export default function ProductDetailClient({ product, brand }: ProductDetailCli
           <div className="grid grid-cols-2 gap-3">
             {[
               { label: "Brand", value: brand?.displayName || product.brand },
-              { label: "Compatible", value: `${product.compatibleModels.length} models` },
+              { label: "Compatible", value: product.compatibleModels.join(", ") },
               { label: "Category", value: product.category.charAt(0).toUpperCase() + product.category.slice(1) },
               { label: "In Stock", value: `${product.stock} units` },
             ].map(({ label, value }) => (

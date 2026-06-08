@@ -86,14 +86,7 @@ async function main() {
       const destPath = path.join(PRODUCTS_DIR, filename);
       const localUrl = `/products/${filename}`;
 
-      // Skip if already downloaded
-      if (fs.existsSync(destPath)) {
-        console.log(`  ✅ Already exists: ${filename}`);
-        newImages.push(localUrl);
-        skipped++;
-        continue;
-      }
-
+      // Download the new image, overwriting any old placeholder
       try {
         process.stdout.write(`  ⬇  Downloading: ${filename} ... `);
         await downloadImage(imgUrl, destPath);
